@@ -1,0 +1,1906 @@
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABCm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: ABCm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: PING_REQUEST
+DEBUG:sawtooth_sdk.processor.core:received message of type: PING_REQUEST
+DEBUG:asyncio:Using selector: ZMQSelector
+INFO:sawtooth_sdk.processor.core:register attempt: OK
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addManufacturer', 'ABm']
+INFO:__main__:entering add manufacture
+INFO:__main__:Manufacturers: []
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addManufacturer', 'ABm']
+INFO:__main__:entering add manufacture
+INFO:__main__:Manufacturers: []
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'crocin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'crocin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'crocin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'crocin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']

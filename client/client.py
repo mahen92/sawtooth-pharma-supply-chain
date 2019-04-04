@@ -47,7 +47,7 @@ private_key = context.new_random_private_key()
 signer = CryptoFactory(context).new_signer(private_key)
 public_key = signer.get_public_key().as_hex()
 
-base_url = ''
+base_url = 'http://rest-api:8008'
 
 def getManufacturerAddress(manufacturerName):
     return FAMILY_NAME + MANUFACTURER_ENTRIES + hash(manufacturerName)[:58]
@@ -93,6 +93,13 @@ def giveToDistributor(manufacturerName, distributer, medicineName):
     response = wrap_and_send("giveTo", command_string, input_address_list, output_address_list, wait = 5)
     # print ("give response: {}".format(response))
     return yaml.safe_load(response)['data'][0]['status']
+
+def listClients(clientAddress):
+    result = send_to_rest_api("state/{}".format(clientAddress))
+    try:
+        return (base64.b64decode(yaml.safe_load(result)["data"])).decode()
+    except BaseException:
+        return None
 
 def send_to_rest_api(suffix, data=None, content_type=None):
     url = "{}/{}".format(base_url, suffix)
@@ -228,6 +235,24 @@ if __name__ == '__main__':
             else:
                 logging.info ("Didn't Distributed - distributer: {}, medicine: {}".format(sys.argv[2], sys.argv[3]))
                 print ("Didn't Distributed - distributer: {}, medicine: {}".format(sys.argv[2], sys.argv[3]))
+        elif sys.argv[1] == "listManufacturers":
+            logging.info ('command : listManufacturers')
+            result = listClients(MANUFACTURERS_TABLE)
+            print ('The Manufacturers: {}'.format (result))
+        elif sys.argv[1] == "listDistributers":
+            logging.info ('command : listDistributers')
+            result = listClients(DISTRIBUTERS_TABLE)
+            print ('The Distributers: {}'.format (result))
+        elif sys.argv[1] == "seeManufacturer":
+            logging.info ('command : seeManufacturer')
+            address = getManufacturerAddress(sys.argv[2])
+            result = listClients(address)
+            print ('content: {}'.format (result))
+        elif sys.argv[1] == "seeDistributer":
+            logging.info ('command : seeDistributer')
+            address = getDistributerAddress(sys.argv[2])
+            result = listClients(address)
+            print ('content: {}'.format (result))
         else:
             print ('Invalid command.\nValid commands: \n\taddManufacturer manufacturerName, addDistributer name, \n\tmanufacture mname medicine name, giveto mname dname medicineName, \n\tlistManufacturers, listDistributers, seeManufacturer mname, seeDistributer dname')
     except IndexError as i:

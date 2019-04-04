@@ -91,6 +91,12 @@ class PharmaTransactionHandler(TransactionHandler):
                     manufacturerName = payload_list[1]
                     medicineName = payload_list[2]
                     self._manufacture(context, manufacturerName, medicineName)
+                elif action == "giveTo":
+                    manufacturerName = payload_list[1]
+                    distributerName = payload_list[2]
+                    medicineName = payload_list[3]
+                    self._giveTo(context, manufacturerName, distributerName, medicineName)
+                    action = payload_list[0]
                 else:
                     LOGGER.debug("Unhandled action: " + action)
             except IndexError as i:
@@ -169,7 +175,43 @@ class PharmaTransactionHandler(TransactionHandler):
                 raise Exception('no manufacturers')
         except Exception as e:
             logging.debug ('excecption: {}'.format(e))
-            raise InvalidTransaction("State Error")
+            raise InternalError("State Error")
+        
+    @classmethod
+    def _giveTo(self, context, manufacturerName, distributerName, medicineName):
+        LOGGER.info("entering giveTo")
+        manufacturerAddress = getManufacturerAddress(manufacturerName)
+        distributerAddress = getDistributerAddress(distributerName)
+        try:
+            manufacturers = self._readData(context, MANUFACTURERS_TABLE)  
+            distributers = self._readData(context, DISTRIBUTERS_TABLE)  
+            LOGGER.info ('manufacturers: {}'.format(manufacturers))
+            LOGGER.info ('distributers: {}'.format(distributers))
+            if manufacturerName in manufacturers and distributerName in distributers:
+                manufacturedMedicines = self._readData(context, manufacturerAddress)
+                if medicineName in manufacturedMedicines:
+                    manufacturedMedicines.remove(medicineName)
+                    LOGGER.info (medicineName + 'removed')
+                    distributerMedicine = self._readData(context, distributerAddress)
+                    distributerMedicine.append(medicineName)
+                    addresses = context.set_state({
+                        manufacturerAddress: self._encode_data(manufacturedMedicines),
+                        distributerAddress: self._encode_data(distributerMedicine)
+                    })        
+                else:
+                    pass
+            else:
+                pass
+            LOGGER.info('{} gave {} to {}'.format(manufacturerName, medicineName, distributerName))
+        except TypeError as t:
+            logging.debug('TypeError in _giveTo: {}'.format(t))
+            raise InvalidTransaction('Type error')
+        except InvalidTransaction as e:
+            logging.debug ('excecption: {}'.format(e))
+            raise e
+        except Exception as e:
+            logging.debug('exception: {}'.format(e))
+            raise InvalidTransaction('excecption: {}'.format(e))
 
     # returns a list
     @classmethod
