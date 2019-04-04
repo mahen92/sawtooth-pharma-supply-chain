@@ -32,6 +32,8 @@ FAMILY_NAME = hash(family_name)[:6]
 
 TABLES = hash("tables")[:6]
 
+TRACKING = hash("tracking")[:6]
+TRACKING_TABLE = FAMILY_NAME + TRACKING
 
 MANUFACTURER_ENTRIES = hash("manufacturer-entries")[:6]
 MANUFACTURERS = hash("manufacturers")
@@ -53,6 +55,9 @@ public_key = signer.get_public_key().as_hex()
 
 base_url = 'http://rest-api:8008'
 
+def getBatchAddress(batchID):
+    return TRACKING_TABLE + hash(batchID)[:58]
+    
 def getManufacturerAddress(manufacturerName):
     return FAMILY_NAME + MANUFACTURER_ENTRIES + hash(manufacturerName)[:58]
 
@@ -68,6 +73,14 @@ def addManufacturer(manufacturerName):
     input_address_list = [MANUFACTURERS_TABLE]
     output_address_list = [MANUFACTURERS_TABLE, getManufacturerAddress(manufacturerName)]
     response = wrap_and_send("addManufacturer", manufacturerName, input_address_list, output_address_list, wait = 5)
+    # print ("manufacture response: {}".format(response))
+    return yaml.safe_load(response)['data'][0]['status']
+
+def addPharmacy(pharmacy):
+    logging.info ('addPharmacy({})'.format(pharmacy))
+    input_address_list = [PHARMACY_TABLE]
+    output_address_list = [PHARMACY_TABLE, getPharmacyAddress(pharmacy)]
+    response = wrap_and_send("addPharmacy", pharmacy, input_address_list, output_address_list, wait = 5)
     # print ("manufacture response: {}".format(response))
     return yaml.safe_load(response)['data'][0]['status']
 
@@ -224,6 +237,15 @@ if __name__ == '__main__':
             else:
                 logging.info (sys.argv[2] + " not added.")
                 print ("\n{} not added ".format(sys.argv[2]))
+        elif sys.argv[1] == "addPharmacy":
+            logging.info ('add Pharmacy command: ' + sys.argv[2])
+            result = addPharmacy(sys.argv[2])
+            if result == 'COMMITTED':
+                logging.info (sys.argv[2] + " added.")
+                print ("Added " + sys.argv[2])
+            else:
+                logging.info (sys.argv[2] + " not added.")
+                print ("\n{} not added ".format(sys.argv[2]))
         elif sys.argv[1] == "manufacture":
             logging.info ('manufacture command: ' + sys.argv[2])
             result = manufacture(sys.argv[2], sys.argv[3])
@@ -250,6 +272,10 @@ if __name__ == '__main__':
             logging.info ('command : listDistributers')
             result = listClients(DISTRIBUTERS_TABLE)
             print ('The Distributers: {}'.format (result))
+        elif sys.argv[1] == "listPharmacies":
+            logging.info ('command : listPharmacies')
+            result = listClients(PHARMACY_TABLE)
+            print ('The Pharmacies: {}'.format (result))
         elif sys.argv[1] == "seeManufacturer":
             logging.info ('command : seeManufacturer')
             address = getManufacturerAddress(sys.argv[2])

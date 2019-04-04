@@ -2008,3 +2008,1620 @@ DEBUG:sawtooth_sdk.processor.core:received message of type: PING_REQUEST
 DEBUG:sawtooth_sdk.processor.core:received message of type: PING_REQUEST
 DEBUG:asyncio:Using selector: ZMQSelector
 INFO:sawtooth_sdk.processor.core:register attempt: OK
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addManufacturer', 'ABm']
+INFO:__main__:entering add manufacture
+INFO:__main__:Manufacturers: []
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addManufacturer', 'ABm']
+INFO:__main__:entering add manufacture
+INFO:__main__:Manufacturers: []
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addDistributor', 'ABd']
+INFO:__main__:entering addDist
+INFO:__main__:Distributers: []
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addDistributor', 'ABd']
+INFO:__main__:entering addDist
+INFO:__main__:Distributers: []
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addPharmacy', 'ABp']
+DEBUG:__main__:Unhandled action: addPharmacy
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addPharmacy', 'ABp']
+DEBUG:__main__:Unhandled action: addPharmacy
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addPharmacy', 'ABp']
+DEBUG:__main__:Unhandled action: addPharmacy
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addPharmacy', 'ABp']
+DEBUG:__main__:Unhandled action: addPharmacy
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addPharmacy', 'ABp']
+DEBUG:__main__:Unhandled action: addPharmacy
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addPharmacy', 'ABp']
+DEBUG:__main__:Unhandled action: addPharmacy
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addPharmacy', 'ABCp']
+DEBUG:__main__:Unhandled action: addPharmacy
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addPharmacy', 'ABCp']
+DEBUG:__main__:Unhandled action: addPharmacy
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addPharmacy', 'ABp']
+DEBUG:__main__:Unhandled action: addPharmacy
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addPharmacy', 'ABp']
+DEBUG:__main__:Unhandled action: addPharmacy
+DEBUG:sawtooth_sdk.processor.core:received message of type: PING_REQUEST
+DEBUG:sawtooth_sdk.processor.core:received message of type: PING_REQUEST
+DEBUG:asyncio:Using selector: ZMQSelector
+INFO:sawtooth_sdk.processor.core:register attempt: OK
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addPharmacy', 'ABp']
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addPharmacy', 'ABp']
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addManufacturer', 'ABm']
+INFO:__main__:entering add manufacture
+INFO:__main__:Manufacturers: []
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addManufacturer', 'ABm']
+INFO:__main__:entering add manufacture
+INFO:__main__:Manufacturers: []
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'Abm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'Abm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: no manufacturer: Abm
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'ABm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/20', 'ABm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Aspirin', 'AB2', '4/4/19', '4/4/21', 'ABm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Aspirin', 'AB2', '4/4/19', '4/4/21', 'ABm']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:asyncio:Using selector: ZMQSelector
+INFO:sawtooth_sdk.processor.core:register attempt: OK
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addManufacturer', 'ABm']
+INFO:__main__:entering add manufacture
+INFO:__main__:Manufacturers: []
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addManufacturer', 'ABm']
+INFO:__main__:entering add manufacture
+INFO:__main__:Manufacturers: []
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addDistributor', 'ABm']
+INFO:__main__:entering addDist
+INFO:__main__:Distributers: []
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addDistributor', 'ABm']
+INFO:__main__:entering addDist
+INFO:__main__:Distributers: []
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addPharmacy', 'ABp']
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addPharmacy', 'ABp']
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:root:excecption: Tried to set unauthorized address: ['ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1', 'ae78c629644d7eab4058c43c127f600014b37d653d466054d72407f51c748b64380f50']
+WARNING:sawtooth_sdk.processor.core:Invalid Transaction Error: State Error
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Crocin', 'AB1', '4/4/19', '4/4/21']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['giveToDistibutor', 'ABm', 'ABd', 'AB1', '6/4/19']
+DEBUG:__main__:Unhandled action: giveToDistibutor
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['giveToDistibutor', 'ABm', 'ABd', 'AB1', '6/4/19']
+DEBUG:__main__:Unhandled action: giveToDistibutor
+DEBUG:sawtooth_sdk.processor.core:received message of type: PING_REQUEST
+DEBUG:sawtooth_sdk.processor.core:received message of type: PING_REQUEST
+DEBUG:asyncio:Using selector: ZMQSelector
+INFO:sawtooth_sdk.processor.core:register attempt: OK
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addManufacturer', 'ABm']
+INFO:__main__:entering add manufacture
+INFO:__main__:Manufacturers: []
+DEBUG:sawtooth_sdk.processor.core:received message of type: PING_REQUEST
+DEBUG:sawtooth_sdk.processor.core:received message of type: PING_REQUEST
+DEBUG:asyncio:Using selector: ZMQSelector
+INFO:sawtooth_sdk.processor.core:register attempt: OK
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addManufacturer', 'ABCD']
+INFO:__main__:entering add manufacture
+INFO:__main__:Manufacturers: []
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addManufacturer', 'ABCD']
+INFO:__main__:entering add manufacture
+INFO:__main__:Manufacturers: []
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addManufacturer', 'ABm']
+INFO:__main__:entering add manufacture
+INFO:__main__:Manufacturers: ['ABCD']
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addManufacturer', 'ABm']
+INFO:__main__:entering add manufacture
+INFO:__main__:Manufacturers: ['ABCD']
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addDistributor', 'ABd']
+INFO:__main__:entering addDist
+INFO:__main__:Distributers: []
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addDistributor', 'ABd']
+INFO:__main__:entering addDist
+INFO:__main__:Distributers: []

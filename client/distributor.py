@@ -37,5 +37,20 @@ def sendToPharmacy():
     else:
        return render_template('alert.html',command="SOMETHING FAILED! \nOOPS!")
 
+
+@app.route('/listMed', methods = ['GET', 'POST'])
+def listMed():
+    m = distributer()
+    dist_name = request.form['distributor']
+    result = m.listMedicines(dist_name)
+    return render_template('alert.html',command=result,port="5010")
+
+@app.route('/listMedReq', methods = ['GET', 'POST'])
+def listMedReq():
+    m = distributer()
+    dist_name = request.form['distributor']
+    result = m.listMedicines(dist_name, 'request')
+    return render_template('alert.html',command=result,port="5010")
+
 if __name__=='__main__':
 	app.run(debug=True,host="0.0.0.0")

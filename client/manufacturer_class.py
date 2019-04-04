@@ -46,11 +46,12 @@ class manufacturer():
 
 	def manufacture(self, manufacturerName, medicineName, batchID, manufactureDate, expiryDate, owner):
 		logging.info ('manufacture({})'.format(medicineName))
-		l = [manufacturerName, medicineName, batchID, manufactureDate, expiryDate, owner]
+		l = [manufacturerName, medicineName, batchID, manufactureDate, expiryDate]
 		manufacturerAddress = getManufacturerAddress(manufacturerName)
+		batchAddress = getBatchAddress(batchID)
 		command_string = ','.join(l)
-		input_address_list = [MANUFACTURERS_TABLE, manufacturerAddress]
-		output_address_list = [manufacturerAddress]
+		input_address_list = [MANUFACTURERS_TABLE, manufacturerAddress, batchAddress]
+		output_address_list = [manufacturerAddress, batchAddress]
 		response = wrap_and_send("manufacture", command_string, input_address_list, output_address_list, wait = 5)
 		# print ("manufacture response: {}".format(response))
 		return yaml.safe_load(response)['data'][0]['status']
@@ -60,9 +61,17 @@ class manufacturer():
 		command_string = ','.join(l)
 		distributerAddress = getDistributerAddress(distributer,"request")
 		manufacturerAddress = getManufacturerAddress(manufacturerName)
-		input_address_list = [DISTRIBUTERS_TABLE, MANUFACTURERS_TABLE, manufacturerAddress, distributerAddress]
-		output_address_list = [manufacturerAddress, distributerAddress]
+		batchAddress = getBatchAddress(batchID)
+		input_address_list = [DISTRIBUTERS_TABLE, MANUFACTURERS_TABLE, manufacturerAddress, distributerAddress, batchAddress]
+		output_address_list = [manufacturerAddress, distributerAddress, batchAddress]
 		response = wrap_and_send("giveToDistibutor", command_string, input_address_list, output_address_list, wait = 5)
 		# print ("give response: {}".format(response))
 		return yaml.safe_load(response)['data'][0]['status']
-			   
+
+	def listMedicines(self, manufacturerName):
+		address = getManufacturerAddress(manufacturerName)
+		result = listClients(address)
+		if result:
+			return result
+		else:
+			return "No medicines"

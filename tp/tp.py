@@ -23,6 +23,8 @@ FAMILY_NAME = hash(family_name)[:6]
 
 TABLES = hash("tables")[:6]
 
+TRACKING = hash("tracking")[:6]
+TRACKING_TABLE = FAMILY_NAME + TRACKING
 
 MANUFACTURER_ENTRIES = hash("manufacturer-entries")[:6]
 MANUFACTURERS = hash("manufacturers")
@@ -32,12 +34,23 @@ DISTRIBUTER_ENTRIES = hash("distributer-entries")[:6]
 DISTRIBUTERS = hash("distributers")
 DISTRIBUTERS_TABLE = FAMILY_NAME + TABLES + DISTRIBUTERS[:58]
 
-def getDistributerAddress(distributerName):
-    distributerName = str(distributerName)
-    return FAMILY_NAME + DISTRIBUTER_ENTRIES + hash(distributerName)[:58]
+
+PHARMACY_ENTRIES = hash("pharmacy-entries")[:6]
+PHARMACY = hash("pharmacys")
+PHARMACY_TABLE = FAMILY_NAME + TABLES + PHARMACY[:58]
+
+def getBatchAddress(batchID):
+    return TRACKING_TABLE + hash(batchID)[:58]
 
 def getManufacturerAddress(manufacturerName):
     return FAMILY_NAME + MANUFACTURER_ENTRIES + hash(manufacturerName)[:58]
+
+def getDistributerAddress(distributerName, qualifier = "has"):
+    distributerName = str(distributerName)
+    return FAMILY_NAME + DISTRIBUTER_ENTRIES + hash(distributerName)[:57] + hash(qualifier)[0]
+
+def getPharmacyAddress(pharmacyname, qualifier = "has"):
+    return FAMILY_NAME + PHARMACY_ENTRIES + hash(pharmacyname)[:57] + hash(qualifier)[0]
 
 class PharmaTransactionHandler(TransactionHandler):
     '''
@@ -86,39 +99,50 @@ class PharmaTransactionHandler(TransactionHandler):
                 elif action == "addDistributor":
                     distributerName = payload_list[1]
                     self._addDistributer(context, distributerName)
+                elif action == "addPharmacy":
+                    pharmacyName = payload_list[1]
+                    self._addPharmacy(context, pharmacyName)
+            	#l = [manufacturerName, medicineName, batchID, manufactureDate, expiryDate]
                 elif action == "manufacture":
-                    manufacturerName = payload_list[1]
-                    medicineName = payload_list[2]
-                    self._manufacture(context, manufacturerName, medicineName)
+                    [manufacturerName, medicineName, batchID, manufactureDate, expiryDate] = payload_list[1:]
+                    # manufacturerName = payload_list[1]
+                    # medicineName = payload_list[2]
+                    # batchid = pa
+                    # medicineDetails = payload_list[3:7]
+                    self._manufacture(context, manufacturerName, medicineName, batchID, manufactureDate, expiryDate)
                 elif action == "giveTo":
                     manufacturerName = payload_list[1]
                     distributerName = payload_list[2]
-                    medicineName = payload_list[3]
                     self._giveTo(context, manufacturerName, distributerName, medicineName)
                     action = payload_list[0]
                 elif action == "giveToDistributer":
                     manufacturerName = payload_list[1]
                     distributerName = payload_list[2]
+                    batchid = payload_list[3]
+                    date = payload_list[4]
                     # medicineDetails = payload_list[3:7]
-                    # self._giveToDistributer(context, manufacturerName, distributerName, medicineDetails)
+                    self._giveToDistributer(context, manufacturerName, distributerName, batchid, date)
                 elif action == "giveToPharmacy":
                     distributerName = payload_list[1]
                     pharmacyName = payload_list[2]
                     medicineDetails = payload_list[3:7]
                     self._giveToPharmacy(context, distributerName, pharmacyName, medicineDetails)
                     action = payload_list[0]
+
+                # l = [manufacturerName, distributer, batchID, date, action]
                 elif action == "getFromManufacturer":
                     manufacturerName = payload_list[1]
                     distributerName = payload_list[2]
-                    medicineDetails = payload_list[3:7]
-                    performaction = payload_list[7]
-                    self._getFromManufacturer(context,manufacturerName,distributerName,medicineDetails,performaction)
+                    batchID = payload_list[3]
+                    date = payload_list[4]
+                    action = payload_list[5]
+                    self._getFromManufacturer(context, manufacturerName, distributerName, batchID, date, action)
                 elif action == "getFromDistributer":
                     ditributerName = payload_list[1]
                     pharmacyName = payload_list[2]
                     medicineDetails = payload_list[3:7]
                     performaction = payload_list[7]
-                    self._getFromditributer(context,ditributerName,pharmacyName,medicineDetails,performaction)
+                    self._getFromditributer(context, ditributerName, pharmacyName, medicineDetails, performaction)
                 else:
                     LOGGER.debug("Unhandled action: " + action)
             except IndexError as i:
@@ -138,7 +162,8 @@ class PharmaTransactionHandler(TransactionHandler):
                     distributers.append(distributerName)
                     medicines = []
                     addresses  = context.set_state({
-                                    getDistributerAddress(distributerName): self._encode_data(medicines)
+                                    getDistributerAddress(distributerName): self._encode_data(medicines),
+                                    getDistributerAddress(distributerName, 'request'): self._encode_data(medicines)
                                 })
                 else:
                     raise Exception('no manufacturer: ' + distributerName)
@@ -176,10 +201,40 @@ class PharmaTransactionHandler(TransactionHandler):
         except Exception as e:
             logging.debug ('excecption: {}'.format(e))
             raise InvalidTransaction("State Error")
-    
+
     @classmethod
-    def _manufacture(self, context, manufacturerName, medicineName):
+    def _addPharmacy(self, context, pharmacyName):
+        try:
+            #LOGGER.info("entering add pharmacy")
+            pharmacy = self._readData(context, PHARMACY_TABLE)  
+            #LOGGER.info ('Manufacturers: {}'.format(pharmacy))
+            if pharmacy:
+                if pharmacyName not in pharmacy:
+                    pharmacy.append(pharmacyName)
+                    medicines = []
+                    addresses  = context.set_state({
+                                    getPharmacyAddress(pharmacyName): self._encode_data(medicines),
+                                    getPharmacyAddress(pharmacyName, 'request'): self._encode_data(medicines)
+                                })
+                else:
+                    raise Exception('no pharmacy: ' + pharmacyName)
+            else:
+                pharmacy = [pharmacyName]
+            
+            addresses  = context.set_state({
+                            PHARMACY_TABLE: self._encode_data(pharmacy)
+                        })
+        except Exception as e:
+            logging.debug ('excecption: {}'.format(e))
+            raise InvalidTransaction("State Error")
+
+
+	#l = [manufacturerName, medicineName, batchID, manufactureDate, expiryDate, owner]
+    @classmethod
+    def _manufacture(self, context, manufacturerName, medicineName, batchID, manufactureDate, expiryDate):
         manufacturerAddress = getManufacturerAddress(manufacturerName)
+        medicine_string = '\n'+', '.join([manufacturerName, medicineName, batchID, manufactureDate, expiryDate])
+        batchAddress = getBatchAddress(batchID)
         try:
             LOGGER.info("entering manufacture")
             manufacturers = self._readData(context, MANUFACTURERS_TABLE)  
@@ -187,9 +242,12 @@ class PharmaTransactionHandler(TransactionHandler):
             if manufacturers:
                 if manufacturerName in manufacturers:
                     medicines = self._readData(context, manufacturerAddress)
-                    medicines.append(medicineName)
+                    medicines.append(batchID)
+                    tracking = [medicine_string]
+                    
                     addresses = context.set_state({
-                        manufacturerAddress: self._encode_data(medicines)
+                        manufacturerAddress: self._encode_data(medicines),
+                        batchAddress: self._encode_data(tracking)
                     })
                 else:
                     raise Exception('no manufacturer: ' + manufacturerName)
@@ -199,11 +257,12 @@ class PharmaTransactionHandler(TransactionHandler):
             logging.debug ('excecption: {}'.format(e))
             raise InternalError("State Error")
         
+    #l = [manufacturerName, distributer, batchID, date]
     @classmethod
-    def _giveToDistributer(self, context, manufacturerName, distributerName, medicineName):
-        LOGGER.info("entering giveTo")
+    def _giveToDistributer(self, context, manufacturerName, distributerName, batchid, date):
+        LOGGER.info("entering giveToDistributers")
         manufacturerAddress = getManufacturerAddress(manufacturerName)
-        distributerAddress = getDistributerAddress(distributerName)
+        distributerAddress = getDistributerAddress(distributerName, "request")
         try:
             manufacturers = self._readData(context, MANUFACTURERS_TABLE)  
             distributers = self._readData(context, DISTRIBUTERS_TABLE)  
@@ -211,20 +270,77 @@ class PharmaTransactionHandler(TransactionHandler):
             LOGGER.info ('distributers: {}'.format(distributers))
             if manufacturerName in manufacturers and distributerName in distributers:
                 manufacturedMedicines = self._readData(context, manufacturerAddress)
-                if medicineName in manufacturedMedicines:
-                    manufacturedMedicines.remove(medicineName)
-                    LOGGER.info (medicineName + 'removed')
+                if batchid in manufacturedMedicines:
+                    manufacturedMedicines.remove(batchid)
+                    LOGGER.info (batchid + 'removed')
                     distributerMedicine = self._readData(context, distributerAddress)
-                    distributerMedicine.append(medicineName)
+                    distributerMedicine.append(batchid)
                     addresses = context.set_state({
                         manufacturerAddress: self._encode_data(manufacturedMedicines),
                         distributerAddress: self._encode_data(distributerMedicine)
-                    })        
+                    })
                 else:
                     pass
             else:
                 pass
-            LOGGER.info('{} gave {} to {}'.format(manufacturerName, medicineName, distributerName))
+            LOGGER.info('{} gave {} to {}.request'.format(manufacturerName, batchid, distributerName))
+        except TypeError as t:
+            logging.debug('TypeError in _giveTo: {}'.format(t))
+            raise InvalidTransaction('Type error')
+        except InvalidTransaction as e:
+            logging.debug ('excecption: {}'.format(e))
+            raise e
+        except Exception as e:
+            logging.debug('exception: {}'.format(e))
+            raise InvalidTransaction('excecption: {}'.format(e))
+
+    # l = [manufacturerName, distributer, batchID, date, owner, action]
+    @classmethod
+    def _getFromManufacturer(self, context, manufacturerName, distributerName, batchID, date, action):
+        LOGGER.info("entering getFromManufacturer")
+        action = str(action)
+        manufacturerAddress = getManufacturerAddress(manufacturerName)
+        distributerRequestAddress = getDistributerAddress(distributerName,"request")
+        distributerHasAddress = getDistributerAddress(distributerName,"has")
+        batchAddress = getBatchAddress(batchID)
+        try:
+            manufacturers = self._readData(context, MANUFACTURERS_TABLE)  
+            distributers = self._readData(context, DISTRIBUTERS_TABLE)  
+            LOGGER.info ('manufacturers: {}'.format(manufacturers))
+            LOGGER.info ('distributers: {}'.format(distributers))
+            if manufacturerName in manufacturers and distributerName in distributers:
+                distributerRequestMedicine = self._readData(context,distributerRequestAddress)
+                if batchID in distributerRequestMedicine:
+                    distributerRequestMedicine.remove(batchID)
+                    LOGGER.info (batchID + 'removed from request list of distributer')
+                    if action == "accept":
+                        distributerHasMedicine = self._readData(context, distributerHasAddress)
+                        distributerHasMedicine.append(batchID)
+                        
+                        tracking = self._readData(context, batchAddress)
+                        tracking = [distributerName] + tracking
+                        
+                        addresses = context.set_state({
+                            distributerHasAddress: self._encode_data(distributerHasMedicine),
+                            distributerRequestAddress: self._encode_data(distributerRequestMedicine),
+                            batchAddress: self._encode_data(tracking)
+                        })
+                        LOGGER.info (batchID + 'added to has list of distributer and tracking updated')
+                    elif action == "reject":
+                        manufacturerMedicine = self._readData(context, manufacturerAddress)
+                        manufacturerMedicine.append(batchID)
+                        
+                        addresses = context.set_state({
+                            manufacturerAddress: self._encode_data(manufacturerMedicine),
+                            distributerRequestAddress: self._encode_data(distributerRequestMedicine)
+                        })
+                        
+                        LOGGER.info (batchID + 'added back to manufacturer')
+                else:
+                    pass
+            else:
+                pass
+            #LOGGER.info('{} gave {} to {}'.format(manufacturerName, medicineDetails, distributerName))
         except TypeError as t:
             logging.debug('TypeError in _giveTo: {}'.format(t))
             raise InvalidTransaction('Type error')

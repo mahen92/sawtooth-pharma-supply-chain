@@ -24,13 +24,14 @@ class distributer():
 	def __init__(self):
 		pass
 
-	def getFromManufacturer(self, manufacturerName, distributer, batchID, date, owner, action):
-		l = [manufacturerName, distributer, batchID, date, owner, action]
+	def getFromManufacturer(self, manufacturerName, distributer, batchID, date, action):
+		l = [manufacturerName, distributer, batchID, date, action]
 		command_string = ','.join(l)
 		distributerAddress = getDistributerAddress(distributer, "request")
 		manufacturerAddress = getManufacturerAddress(manufacturerName)
-		input_address_list = [DISTRIBUTERS_TABLE, MANUFACTURERS_TABLE, manufacturerAddress, distributerAddress]
-		output_address_list = [manufacturerAddress, distributerAddress]
+		batchAddress = getBatchAddress(batchID)
+		input_address_list = [DISTRIBUTERS_TABLE, MANUFACTURERS_TABLE, manufacturerAddress, distributerAddress, batchAddress]
+		output_address_list = [manufacturerAddress, distributerAddress, batchAddress]
 		response = wrap_and_send("getFromManufacturer", command_string, input_address_list, output_address_list, wait = 5)
 		# print ("give response: {}".format(response))
 		return yaml.safe_load(response)['data'][0]['status']
@@ -40,8 +41,17 @@ class distributer():
 		command_string = ','.join(l)
 		distributerAddress = getDistributerAddress(distributer, "has")
 		pharmacyAddress = getPharmacyAddress(pharmacy, "request")
-		input_address_list = [DISTRIBUTERS_TABLE, PHARMACY_TABLE,pharmacyAddress, distributerAddress]
-		output_address_list = [pharmacyAddress, distributerAddress]
+		batchAddress = getBatchAddress(batchID)
+		input_address_list = [DISTRIBUTERS_TABLE, PHARMACY_TABLE,pharmacyAddress, distributerAddress, batchAddress]
+		output_address_list = [pharmacyAddress, distributerAddress, batchAddress]
 		response = wrap_and_send("giveToPharmacy", command_string, input_address_list, output_address_list, wait = 5)
 		# print ("give response: {}".format(response))
 		return yaml.safe_load(response)['data'][0]['status']
+
+	def listMedicines(self, distributerName, qualifier = 'has'):
+		address = getDistributerAddress(distributerName, qualifier)
+		result = listClients(address)
+		if result:
+			return result
+		else:
+			return "No medicines"

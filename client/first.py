@@ -17,7 +17,7 @@ def hello():
     batchid = request.form['batchid']
     owner = manu_name
     result = m.manufacture(manu_name, med, batchid, manu_date, exp_date, owner)
-    return render_template('alert.html',command=result,port="5000")
+    return render_template('alert.html',command=result,port="5010")
 
 @app.route('/giveToDist', methods = ['GET', 'POST'])
 def sendtoDist():
@@ -27,7 +27,14 @@ def sendtoDist():
     batchid = request.form['batchid']
     date = request.form['date']
     result = m.giveToDistributor(manu, dist, batchid, date)
-    return render_template('alert.html',command=result,port="5000")
+    return render_template('alert.html',command=result,port="5010")
+
+@app.route('/listMed', methods = ['GET', 'POST'])
+def listMed():
+    m = manufacturer()
+    manu_name = request.form['manufacturer']
+    result = m.listMedicines(manu_name)
+    return render_template('alert.html',command=result,port="5010")
 
 # @app.route('/addDistributor', methods = ['GET', 'POST'])
 # def call():

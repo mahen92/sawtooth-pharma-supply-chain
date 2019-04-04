@@ -84,10 +84,10 @@
             <br />
             <br />
             <div class="center-align col s4">
-                <a class="blue-text text-darken-2 white waves-effect waves-light btn" href="#id01"><i
-                        class="material-icons left">add</i>Add distributors</a><br /><br />
                 <a class="blue-text text-darken-2 white waves-effect waves-light btn" href="#id02"><i
                         class="material-icons left">add</i>Add manufacturers</a><br /><br />
+                <a class="blue-text text-darken-2 white waves-effect waves-light btn" href="#id01"><i
+                        class="material-icons left">add</i>Add distributors</a><br /><br />
                 <a class="blue-text text-darken-2 white waves-effect waves-light btn" href="#id03"><i
                         class="material-icons left">add</i>Add pharmacies<br />/pharmacies</a><br /><br />
                 <form action="http://localhost:5000/listManu" method="POST">
@@ -99,7 +99,7 @@
                     </button>
                     </form>    
                     <br/>
-                    <form action="http://localhost:5000/listDis" method="POST">
+                    <form action="http://localhost:5000/listDist" method="POST">
                 
                         <button
                         class="blue-text text-darken-2 white waves-effect waves-light btn btn waves-effect waves-light"
@@ -107,7 +107,7 @@
                         <i class="material-icons right">list</i>
                     </button>
                     </form>
-                    <br/>     <form action="http://localhost:5000/listHos" method="POST">
+                    <br/>     <form action="http://localhost:5000/listPharma" method="POST">
                 
                         <button
                         class="blue-text text-darken-2 white waves-effect waves-light btn btn waves-effect waves-light"
@@ -129,7 +129,7 @@
                 <form action="http://localhost:5000/addDist" method="POST">
 
                     <h6><b>Distributor's name<b>
-                                <input type="text" name="name"placeholder="Enter the distributor's name" /></h6>
+                                <input type="text" name="distributer" placeholder="Enter the distributor's name" /></h6>
                     <button
                         class="blue-text text-darken-2 white waves-effect waves-light btn btn waves-effect waves-light"
                         type="submit" name="action">Submit
@@ -154,7 +154,7 @@
 
 
                     <h6><b>manufacturer's name<b>
-                                <input type="text" name="name"placeholder="Enter the Manufacturer's name" /></h6>
+                                <input type="text" name="manufacturer" placeholder="Enter the Manufacturer's name" /></h6>
 
                     <button
                         class="blue-text text-darken-2 white waves-effect waves-light btn btn waves-effect waves-light"
@@ -170,17 +170,12 @@
         </div>
         <a class="modal-trigger" href="#id03"></a>
         <div id="id03" class="modal" style="width:50%;height:50%">
-
-
             <div class="container">
                 <br />
 
-                <form action="http://localhost:5000/addHos" method="POST">
-
-
-
+                <form action="http://localhost:5000/addPharma" method="POST">
                     <h6><b>Pharmacy's name<b>
-                                <input type="text" name="name"placeholder="Enter the Pharmacy's name" /></h6>
+                                <input type="text" name="pharmacy" placeholder="Enter the Pharmacy's name" /></h6>
 
                     <button
                         class="blue-text text-darken-2 white waves-effect waves-light btn btn waves-effect waves-light"

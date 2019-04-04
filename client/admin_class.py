@@ -41,7 +41,7 @@ class admin():
                                getDistributerAddress(distributerName)]
         response = wrap_and_send(
             "addDistributor", distributerName, input_address_list, output_address_list, wait=5)
-        # print ("manufacture response: {}".format(response))
+        print ("manufacture response: {}".format(response))
         return yaml.safe_load(response)['data'][0]['status']
 
     def addPharmacy(self, pharmacyName):
@@ -60,3 +60,16 @@ class admin():
             return (base64.b64decode(yaml.safe_load(result)["data"])).decode()
         except BaseException:
             return None
+
+    def listPharmacies(self):
+        # address = getPharmacyAddress(pharmacyName)
+        return listClients(PHARMACY_TABLE)
+
+    def listDistributers(self):
+        # address = getDistributerAddress(DistributerName)
+        return listClients(DISTRIBUTERS_TABLE)
+
+    def listManufacturers(self):
+        # address = getManufacturerAddress(ManufacturerName)
+        return listClients(MANUFACTURERS_TABLE)        
+    
