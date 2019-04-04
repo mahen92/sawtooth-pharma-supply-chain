@@ -41,6 +41,10 @@ DISTRIBUTER_ENTRIES = hash("distributer-entries")[:6]
 DISTRIBUTERS = hash("distributers")
 DISTRIBUTERS_TABLE = FAMILY_NAME + TABLES + DISTRIBUTERS[:58]
 
+PHARMACY_ENTRIES = hash("pharmacy-entries")[:6]
+PHARMACY = hash("pharmacys")
+PHARMACY_TABLE = FAMILY_NAME + TABLES + PHARMACY[:58]
+
 # random private key
 context = create_context('secp256k1')
 private_key = context.new_random_private_key()
@@ -52,9 +56,12 @@ base_url = 'http://rest-api:8008'
 def getManufacturerAddress(manufacturerName):
     return FAMILY_NAME + MANUFACTURER_ENTRIES + hash(manufacturerName)[:58]
 
-def getDistributerAddress(distributerName):
+def getDistributerAddress(distributerName, qualifier = "has"):
     distributerName = str(distributerName)
-    return FAMILY_NAME + DISTRIBUTER_ENTRIES + hash(distributerName)[:58]
+    return FAMILY_NAME + DISTRIBUTER_ENTRIES + hash(distributerName)[:57] + hash(qualifier)[0]
+
+def getPharmacyAddress(pharmacyname, qualifier = "has"):
+    return FAMILY_NAME + PHARMACY_ENTRIES + hash(pharmacyname)[:57] + hash(qualifier)[0]
 
 def addManufacturer(manufacturerName):
     logging.info ('addManufacturer({})'.format(manufacturerName))

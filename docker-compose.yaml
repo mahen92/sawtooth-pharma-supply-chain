@@ -39,8 +39,14 @@ services:
       - sawtooth-rest-api
     expose:
       - 5000
+      - 5010
+      - 5020
+      - 5030
     ports:
       - '5000:5000'
+      - '5010:5010'
+      - '5020:5020'
+      - '5030:5030'
     entrypoint: "bash -c \"sawtooth keygen --force pharma && tail -f /dev/null\" && chmod +x script.sh"
     stop_signal: SIGKILL
 

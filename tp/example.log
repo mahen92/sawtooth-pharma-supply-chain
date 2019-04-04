@@ -2004,3 +2004,7 @@ INFO:__main__:starting apply function
 INFO:__main__:payload: ['manufacture', 'ABm', 'Aspirin']
 INFO:__main__:entering manufacture
 INFO:__main__:Manufacturers: ['ABm', 'CDm', 'EFm']
+DEBUG:sawtooth_sdk.processor.core:received message of type: PING_REQUEST
+DEBUG:sawtooth_sdk.processor.core:received message of type: PING_REQUEST
+DEBUG:asyncio:Using selector: ZMQSelector
+INFO:sawtooth_sdk.processor.core:register attempt: OK

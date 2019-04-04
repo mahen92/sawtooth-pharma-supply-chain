@@ -12,8 +12,11 @@ def hello():
     m = manufacturer()
     manu_name = request.form['manufacturer']
     med = request.form['medicine']
-    
-    result = m.manufacture(manu_name, med)
+    manu_date = request.form['manu_date']
+    exp_date = request.form['exp_date']
+    batchid = request.form['batchid']
+    owner = manu_name
+    result = m.manufacture(manu_name, med, batchid, manu_date, exp_date, owner)
     return render_template('alert.html',command=result,port="5000")
 
 @app.route('/giveToDist', methods = ['GET', 'POST'])
@@ -21,12 +24,13 @@ def sendtoDist():
     m = manufacturer()
     manu = request.form['manufacturer']
     dist = request.form['distributor']
-    med = request.form['medicine']
-    result = m.giveToDistributor(manu, dist, med)
+    batchid = request.form['batchid']
+    date = request.form['date']
+    result = m.giveToDistributor(manu, dist, batchid, date)
     return render_template('alert.html',command=result,port="5000")
 
-@app.route('/addDistributor', methods = ['GET', 'POST'])
-def call():
-    m = manufacturer()
-    n = request.form['DISTname']
-    return m.manufacture(n, 'crocin')
+# @app.route('/addDistributor', methods = ['GET', 'POST'])
+# def call():
+#     m = manufacturer()
+#     n = request.form['DISTname']
+#     return m.manufacture(n, 'crocin')

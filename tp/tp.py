@@ -71,7 +71,6 @@ class PharmaTransactionHandler(TransactionHandler):
         payload_list = self._decode_data(transaction.payload)
         return payload_list
 
-
     def apply(self, transaction, context):
         '''This implements the apply function for the TransactionHandler class.
         '''

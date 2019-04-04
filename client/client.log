@@ -659,3 +659,26 @@ INFO:werkzeug: * Detected change in '/project/sawtooth-pharma/client/first.py', 
 INFO:werkzeug: * Restarting with stat
 INFO:werkzeug: * Detected change in '/project/sawtooth-pharma/client/first.py', reloading
 INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/project/sawtooth-pharma/client/first.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 18:11:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/project/sawtooth-pharma/client/first.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:172.28.0.1 - - [04/Apr/2019 19:19:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.28.0.1 - - [04/Apr/2019 19:19:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.28.0.1 - - [04/Apr/2019 19:19:52] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:172.28.0.1 - - [04/Apr/2019 19:19:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.28.0.1 - - [04/Apr/2019 19:19:57] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:172.28.0.1 - - [04/Apr/2019 19:20:06] "GET / HTTP/1.1" 404 -
+INFO:werkzeug:172.28.0.1 - - [04/Apr/2019 19:20:06] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in '/project/sawtooth-pharma/client/distributor.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/project/sawtooth-pharma/client/distributor.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/project/sawtooth-pharma/client/distributor.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:172.28.0.1 - - [04/Apr/2019 19:29:53] "GET /hompage HTTP/1.1" 404 -
+INFO:werkzeug:172.28.0.1 - - [04/Apr/2019 19:29:57] "GET /homepage HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/project/sawtooth-pharma/client/pharmacies.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:172.28.0.1 - - [04/Apr/2019 19:30:13] "GET / HTTP/1.1" 200 -
