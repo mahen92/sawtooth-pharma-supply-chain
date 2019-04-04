@@ -1904,3 +1904,103 @@ INFO:__main__:starting apply function
 INFO:__main__:payload: ['manufacture', 'ABm', 'crocin']
 INFO:__main__:entering manufacture
 INFO:__main__:Manufacturers: ['ABm']
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'crocin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'crocin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addDistributor', 'ABd']
+INFO:__main__:entering addDist
+INFO:__main__:Distributers: []
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addDistributor', 'ABd']
+INFO:__main__:entering addDist
+INFO:__main__:Distributers: []
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addManufacturer', 'CDm']
+INFO:__main__:entering add manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addManufacturer', 'CDm']
+INFO:__main__:entering add manufacture
+INFO:__main__:Manufacturers: ['ABm']
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addDistributor', 'FDm']
+INFO:__main__:entering addDist
+INFO:__main__:Distributers: ['ABd']
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addDistributor', 'FDm']
+INFO:__main__:entering addDist
+INFO:__main__:Distributers: ['ABd']
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Paracetamol']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm', 'CDm']
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Paracetamol']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm', 'CDm']
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addManufacturer', 'EFm']
+INFO:__main__:entering add manufacture
+INFO:__main__:Manufacturers: ['ABm', 'CDm']
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addManufacturer', 'EFm']
+INFO:__main__:entering add manufacture
+INFO:__main__:Manufacturers: ['ABm', 'CDm']
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Avomin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm', 'CDm', 'EFm']
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Avomin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm', 'CDm', 'EFm']
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addDistributor', 'YUTm']
+INFO:__main__:entering addDist
+INFO:__main__:Distributers: ['ABd', 'FDm']
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addDistributor', 'YUTm']
+INFO:__main__:entering addDist
+INFO:__main__:Distributers: ['ABd', 'FDm']
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addDistributor', 'ert']
+INFO:__main__:entering addDist
+INFO:__main__:Distributers: ['ABd', 'FDm', 'YUTm']
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['addDistributor', 'ert']
+INFO:__main__:entering addDist
+INFO:__main__:Distributers: ['ABd', 'FDm', 'YUTm']
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm', 'CDm', 'EFm']
+DEBUG:sawtooth_sdk.processor.core:received message of type: TP_PROCESS_REQUEST
+INFO:__main__:starting apply function
+INFO:__main__:payload: ['manufacture', 'ABm', 'Aspirin']
+INFO:__main__:entering manufacture
+INFO:__main__:Manufacturers: ['ABm', 'CDm', 'EFm']

@@ -5,12 +5,25 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return render_template('distributor.html')
+    return render_template('manufacturer.html')
 
-@app.route('/admin')
+@app.route('/addMed', methods = ['GET', 'POST'])
 def hello():
-    return render_template('admin.html')
+    m = manufacturer()
+    manu_name = request.form['manufacturer']
+    med = request.form['medicine']
+    
+    result = m.manufacture(manu_name, med)
+    return render_template('alert.html',command=result,port="5000")
 
+@app.route('/giveToDist', methods = ['GET', 'POST'])
+def sendtoDist():
+    m = manufacturer()
+    manu = request.form['manufacturer']
+    dist = request.form['distributor']
+    med = request.form['medicine']
+    result = m.giveToDistributor(manu, dist, med)
+    return render_template('alert.html',command=result,port="5000")
 
 @app.route('/addDistributor', methods = ['GET', 'POST'])
 def call():

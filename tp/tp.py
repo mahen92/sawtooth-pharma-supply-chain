@@ -97,6 +97,29 @@ class PharmaTransactionHandler(TransactionHandler):
                     medicineName = payload_list[3]
                     self._giveTo(context, manufacturerName, distributerName, medicineName)
                     action = payload_list[0]
+                elif action == "giveToDistributer":
+                    manufacturerName = payload_list[1]
+                    distributerName = payload_list[2]
+                    # medicineDetails = payload_list[3:7]
+                    # self._giveToDistributer(context, manufacturerName, distributerName, medicineDetails)
+                elif action == "giveToPharmacy":
+                    distributerName = payload_list[1]
+                    pharmacyName = payload_list[2]
+                    medicineDetails = payload_list[3:7]
+                    self._giveToPharmacy(context, distributerName, pharmacyName, medicineDetails)
+                    action = payload_list[0]
+                elif action == "getFromManufacturer":
+                    manufacturerName = payload_list[1]
+                    distributerName = payload_list[2]
+                    medicineDetails = payload_list[3:7]
+                    performaction = payload_list[7]
+                    self._getFromManufacturer(context,manufacturerName,distributerName,medicineDetails,performaction)
+                elif action == "getFromDistributer":
+                    ditributerName = payload_list[1]
+                    pharmacyName = payload_list[2]
+                    medicineDetails = payload_list[3:7]
+                    performaction = payload_list[7]
+                    self._getFromditributer(context,ditributerName,pharmacyName,medicineDetails,performaction)
                 else:
                     LOGGER.debug("Unhandled action: " + action)
             except IndexError as i:
@@ -178,7 +201,7 @@ class PharmaTransactionHandler(TransactionHandler):
             raise InternalError("State Error")
         
     @classmethod
-    def _giveTo(self, context, manufacturerName, distributerName, medicineName):
+    def _giveToDistributer(self, context, manufacturerName, distributerName, medicineName):
         LOGGER.info("entering giveTo")
         manufacturerAddress = getManufacturerAddress(manufacturerName)
         distributerAddress = getDistributerAddress(distributerName)

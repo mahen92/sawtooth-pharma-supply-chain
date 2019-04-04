@@ -363,3 +363,299 @@ INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 14:41:04] "GET /adminn?__debugger__=ye
 INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 14:41:33] "GET /admin HTTP/1.1" 200 -
 INFO:werkzeug: * Detected change in '/project/sawtooth-pharma/client/first.py', reloading
 INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 15:17:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 15:17:21] "GET /admin HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 15:25:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 15:26:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 15:28:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 15:28:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 15:29:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 15:31:47] "GET / HTTP/1.1" 200 -
+INFO:root:payload: manufacture,ABm,crocin
+INFO:root:sending to http://rest-api:8008/batches
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): rest-api
+DEBUG:requests.packages.urllib3.connectionpool:"POST /batches HTTP/1.1" 202 183
+INFO:root:
+request sent POST
+
+INFO:root:url : http://rest-api:8008batch_statuses?id=a0b307c6c19344b7a836e9778f290627ddd9b98c9a9da056416c74333ead1b062d8235db00872f149da3cdc30cb6dee42ea8ba94b55b02d5b77409fe5b19701a&wait=5
+INFO:root:sending to http://rest-api:8008/batch_statuses?id=a0b307c6c19344b7a836e9778f290627ddd9b98c9a9da056416c74333ead1b062d8235db00872f149da3cdc30cb6dee42ea8ba94b55b02d5b77409fe5b19701a&wait=5
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): rest-api
+DEBUG:requests.packages.urllib3.connectionpool:"GET /batch_statuses?id=a0b307c6c19344b7a836e9778f290627ddd9b98c9a9da056416c74333ead1b062d8235db00872f149da3cdc30cb6dee42ea8ba94b55b02d5b77409fe5b19701a&wait=5 HTTP/1.1" 200 425
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 15:31:56] "POST /addDistributor HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 15:32:53] "GET / HTTP/1.1" 200 -
+INFO:root:addDistributer(ABd)
+INFO:root:payload: addDistributor,ABd
+INFO:root:sending to http://rest-api:8008/batches
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): rest-api
+DEBUG:requests.packages.urllib3.connectionpool:"POST /batches HTTP/1.1" 202 183
+INFO:root:
+request sent POST
+
+INFO:root:url : http://rest-api:8008batch_statuses?id=9b3990da65064dc751fde7f0749b0ce9cc83956833ef790f59b949fa6480db0f500cc6c0174d03ffa41214fda775d2a32c8f47666e98936471f89a568f35ec07&wait=5
+INFO:root:sending to http://rest-api:8008/batch_statuses?id=9b3990da65064dc751fde7f0749b0ce9cc83956833ef790f59b949fa6480db0f500cc6c0174d03ffa41214fda775d2a32c8f47666e98936471f89a568f35ec07&wait=5
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): rest-api
+DEBUG:requests.packages.urllib3.connectionpool:"GET /batch_statuses?id=9b3990da65064dc751fde7f0749b0ce9cc83956833ef790f59b949fa6480db0f500cc6c0174d03ffa41214fda775d2a32c8f47666e98936471f89a568f35ec07&wait=5 HTTP/1.1" 200 425
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 15:33:06] "POST /addDist HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 15:33:10] "GET / HTTP/1.1" 200 -
+INFO:root:addManufacturer(CDm)
+INFO:root:payload: addManufacturer,CDm
+INFO:root:sending to http://rest-api:8008/batches
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): rest-api
+DEBUG:requests.packages.urllib3.connectionpool:"POST /batches HTTP/1.1" 202 183
+INFO:root:
+request sent POST
+
+INFO:root:url : http://rest-api:8008batch_statuses?id=6f99e2c510d850340df38b4e994a381b658bb8a893eaf5fbda5b8d2832376b7e5894d0d53b05251a7233d61b0972841fc4372cfa951637a27a10792375bbc47f&wait=5
+INFO:root:sending to http://rest-api:8008/batch_statuses?id=6f99e2c510d850340df38b4e994a381b658bb8a893eaf5fbda5b8d2832376b7e5894d0d53b05251a7233d61b0972841fc4372cfa951637a27a10792375bbc47f&wait=5
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): rest-api
+DEBUG:requests.packages.urllib3.connectionpool:"GET /batch_statuses?id=6f99e2c510d850340df38b4e994a381b658bb8a893eaf5fbda5b8d2832376b7e5894d0d53b05251a7233d61b0972841fc4372cfa951637a27a10792375bbc47f&wait=5 HTTP/1.1" 200 425
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 15:33:19] "POST /addManu HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 15:33:20] "GET / HTTP/1.1" 200 -
+INFO:root:sending to http://rest-api:8008/state/ae78c62c13f4e53a448da6c47b7ce87236b6f9272be81500481f35c1ec11d4de8b0fa4
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): rest-api
+DEBUG:requests.packages.urllib3.connectionpool:"GET /state/ae78c62c13f4e53a448da6c47b7ce87236b6f9272be81500481f35c1ec11d4de8b0fa4 HTTP/1.1" 200 415
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 15:33:24] "POST /listManu HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 15:33:26] "GET / HTTP/1.1" 200 -
+INFO:root:sending to http://rest-api:8008/state/ae78c62c13f4fd5ff402af01a89a0eb16c80684fe0dbd0edd05f1a77f27cd151bf34c4
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): rest-api
+DEBUG:requests.packages.urllib3.connectionpool:"GET /state/ae78c62c13f4fd5ff402af01a89a0eb16c80684fe0dbd0edd05f1a77f27cd151bf34c4 HTTP/1.1" 200 407
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 15:33:29] "POST /listDis HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 15:33:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 15:34:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/project/sawtooth-pharma/client/admin.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/project/sawtooth-pharma/client/admin.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 15:38:31] "GET / HTTP/1.1" 200 -
+INFO:root:addDistributer(FDm)
+INFO:root:payload: addDistributor,FDm
+INFO:root:sending to http://rest-api:8008/batches
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): rest-api
+DEBUG:requests.packages.urllib3.connectionpool:"POST /batches HTTP/1.1" 202 183
+INFO:root:
+request sent POST
+
+INFO:root:url : http://rest-api:8008batch_statuses?id=46d3be1183e1381b6798f3867e9706c7ef385f1d954e7af0b443e4e1f4e302c475cd2b3384edf759d00715a42aa86e03300536500a4b1082312bdda4d36fcc24&wait=5
+INFO:root:sending to http://rest-api:8008/batch_statuses?id=46d3be1183e1381b6798f3867e9706c7ef385f1d954e7af0b443e4e1f4e302c475cd2b3384edf759d00715a42aa86e03300536500a4b1082312bdda4d36fcc24&wait=5
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): rest-api
+DEBUG:requests.packages.urllib3.connectionpool:"GET /batch_statuses?id=46d3be1183e1381b6798f3867e9706c7ef385f1d954e7af0b443e4e1f4e302c475cd2b3384edf759d00715a42aa86e03300536500a4b1082312bdda4d36fcc24&wait=5 HTTP/1.1" 200 425
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 15:38:39] "POST /addDist HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 15:38:41] "GET / HTTP/1.1" 200 -
+INFO:root:command : listManufacturers
+INFO:root:sending to http://rest-api:8008/state/ae78c62c13f4e53a448da6c47b7ce87236b6f9272be81500481f35c1ec11d4de8b0fa4
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): rest-api
+DEBUG:requests.packages.urllib3.connectionpool:"GET /state/ae78c62c13f4e53a448da6c47b7ce87236b6f9272be81500481f35c1ec11d4de8b0fa4 HTTP/1.1" 200 415
+INFO:root:command : listDistributers
+INFO:root:sending to http://rest-api:8008/state/ae78c62c13f4fd5ff402af01a89a0eb16c80684fe0dbd0edd05f1a77f27cd151bf34c4
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): rest-api
+DEBUG:requests.packages.urllib3.connectionpool:"GET /state/ae78c62c13f4fd5ff402af01a89a0eb16c80684fe0dbd0edd05f1a77f27cd151bf34c4 HTTP/1.1" 200 415
+INFO:werkzeug: * Detected change in '/project/sawtooth-pharma/client/first.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 15:41:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 15:45:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 15:46:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/project/sawtooth-pharma/client/first.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/project/sawtooth-pharma/client/first.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/project/sawtooth-pharma/client/first.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/project/sawtooth-pharma/client/first.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 15:48:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 15:48:26] "POST /addMed HTTP/1.1" 405 -
+INFO:werkzeug: * Detected change in '/project/sawtooth-pharma/client/first.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/project/sawtooth-pharma/client/first.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:payload: manufacture,ABm,Paracetamol
+INFO:root:sending to http://rest-api:8008/batches
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): rest-api
+DEBUG:requests.packages.urllib3.connectionpool:"POST /batches HTTP/1.1" 202 183
+INFO:root:
+request sent POST
+
+INFO:root:url : http://rest-api:8008batch_statuses?id=95f5bfed43291b5f9259eaad5ad270c623d84e8043f55c44d3b9219cfd301c8e02402aa726c267816e829454ac868e275ba4ee18694a9cdb15caeaf4c6eb7712&wait=5
+INFO:root:sending to http://rest-api:8008/batch_statuses?id=95f5bfed43291b5f9259eaad5ad270c623d84e8043f55c44d3b9219cfd301c8e02402aa726c267816e829454ac868e275ba4ee18694a9cdb15caeaf4c6eb7712&wait=5
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): rest-api
+DEBUG:requests.packages.urllib3.connectionpool:"GET /batch_statuses?id=95f5bfed43291b5f9259eaad5ad270c623d84e8043f55c44d3b9219cfd301c8e02402aa726c267816e829454ac868e275ba4ee18694a9cdb15caeaf4c6eb7712&wait=5 HTTP/1.1" 200 425
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 15:49:33] "POST /addMed HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 15:49:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/project/sawtooth-pharma/client/first.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 15:50:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 15:53:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 15:55:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/project/sawtooth-pharma/client/client.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/project/sawtooth-pharma/client/admin.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/project/sawtooth-pharma/client/admin.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/project/sawtooth-pharma/client/admin.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/project/sawtooth-pharma/client/admin.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 16:03:08] "GET / HTTP/1.1" 200 -
+INFO:root:sending to http://rest-api:8008/state/ae78c62c13f4fd5ff402af01a89a0eb16c80684fe0dbd0edd05f1a77f27cd151bf34c4
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): rest-api
+DEBUG:requests.packages.urllib3.connectionpool:"GET /state/ae78c62c13f4fd5ff402af01a89a0eb16c80684fe0dbd0edd05f1a77f27cd151bf34c4 HTTP/1.1" 200 415
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 16:03:15] "POST /listDis HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 16:03:17] "GET / HTTP/1.1" 200 -
+INFO:root:sending to http://rest-api:8008/state/ae78c62c13f4e53a448da6c47b7ce87236b6f9272be81500481f35c1ec11d4de8b0fa4
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): rest-api
+DEBUG:requests.packages.urllib3.connectionpool:"GET /state/ae78c62c13f4e53a448da6c47b7ce87236b6f9272be81500481f35c1ec11d4de8b0fa4 HTTP/1.1" 200 415
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 16:03:21] "POST /listManu HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 16:03:23] "GET / HTTP/1.1" 200 -
+INFO:root:sending to http://rest-api:8008/state/ae78c62c13f40298ddd455f9bd0fa0752397b09f92427336732fcebb9acb6c1f3ef883
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): rest-api
+DEBUG:requests.packages.urllib3.connectionpool:"GET /state/ae78c62c13f40298ddd455f9bd0fa0752397b09f92427336732fcebb9acb6c1f3ef883 HTTP/1.1" 404 134
+DEBUG:root:Error 404: Not Found
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 16:03:25] "POST /listHos HTTP/1.1" 500 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 16:03:25] "GET /listHos?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 16:03:25] "GET /listHos?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 16:03:25] "GET /listHos?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 16:03:25] "GET /listHos?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 16:03:26] "GET /listHos?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 16:06:28] "GET / HTTP/1.1" 200 -
+INFO:root:command : listDistributers
+INFO:root:sending to http://rest-api:8008/state/ae78c62c13f4fd5ff402af01a89a0eb16c80684fe0dbd0edd05f1a77f27cd151bf34c4
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): rest-api
+DEBUG:requests.packages.urllib3.connectionpool:"GET /state/ae78c62c13f4fd5ff402af01a89a0eb16c80684fe0dbd0edd05f1a77f27cd151bf34c4 HTTP/1.1" 200 415
+INFO:root:command : listManufacturers
+INFO:root:sending to http://rest-api:8008/state/ae78c62c13f4e53a448da6c47b7ce87236b6f9272be81500481f35c1ec11d4de8b0fa4
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): rest-api
+DEBUG:requests.packages.urllib3.connectionpool:"GET /state/ae78c62c13f4e53a448da6c47b7ce87236b6f9272be81500481f35c1ec11d4de8b0fa4 HTTP/1.1" 200 415
+INFO:root:addManufacturer(EFm)
+INFO:root:payload: addManufacturer,EFm
+INFO:root:sending to http://rest-api:8008/batches
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): rest-api
+DEBUG:requests.packages.urllib3.connectionpool:"POST /batches HTTP/1.1" 202 183
+INFO:root:
+request sent POST
+
+INFO:root:url : http://rest-api:8008batch_statuses?id=5b628f524a7f8c1d3b9d77851b76ac98dd3f295be8ffe2041b63097a299470ae388fadda2beaa9b196cb226e86e2dbfd6d646e3a33d76cabe8da654b641a0865&wait=5
+INFO:root:sending to http://rest-api:8008/batch_statuses?id=5b628f524a7f8c1d3b9d77851b76ac98dd3f295be8ffe2041b63097a299470ae388fadda2beaa9b196cb226e86e2dbfd6d646e3a33d76cabe8da654b641a0865&wait=5
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): rest-api
+DEBUG:requests.packages.urllib3.connectionpool:"GET /batch_statuses?id=5b628f524a7f8c1d3b9d77851b76ac98dd3f295be8ffe2041b63097a299470ae388fadda2beaa9b196cb226e86e2dbfd6d646e3a33d76cabe8da654b641a0865&wait=5 HTTP/1.1" 200 425
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 16:10:57] "POST /addManu HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 16:11:00] "GET / HTTP/1.1" 200 -
+INFO:root:sending to http://rest-api:8008/state/ae78c62c13f4e53a448da6c47b7ce87236b6f9272be81500481f35c1ec11d4de8b0fa4
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): rest-api
+DEBUG:requests.packages.urllib3.connectionpool:"GET /state/ae78c62c13f4e53a448da6c47b7ce87236b6f9272be81500481f35c1ec11d4de8b0fa4 HTTP/1.1" 200 419
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 16:11:05] "POST /listManu HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 16:11:09] "GET / HTTP/1.1" 200 -
+INFO:root:sending to http://rest-api:8008/state/ae78c62c13f4e53a448da6c47b7ce87236b6f9272be81500481f35c1ec11d4de8b0fa4
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): rest-api
+DEBUG:requests.packages.urllib3.connectionpool:"GET /state/ae78c62c13f4e53a448da6c47b7ce87236b6f9272be81500481f35c1ec11d4de8b0fa4 HTTP/1.1" 200 419
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 16:11:18] "POST /listManu HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 16:11:20] "GET / HTTP/1.1" 200 -
+INFO:root:sending to http://rest-api:8008/state/ae78c62c13f40298ddd455f9bd0fa0752397b09f92427336732fcebb9acb6c1f3ef883
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): rest-api
+DEBUG:requests.packages.urllib3.connectionpool:"GET /state/ae78c62c13f40298ddd455f9bd0fa0752397b09f92427336732fcebb9acb6c1f3ef883 HTTP/1.1" 404 134
+DEBUG:root:Error 404: Not Found
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 16:11:33] "POST /listHos HTTP/1.1" 500 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 16:11:33] "GET /listHos?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 16:11:34] "GET /listHos?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 16:11:34] "GET /listHos?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 16:11:34] "GET /listHos?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:root:sending to http://rest-api:8008/state/ae78c62c13f4fd5ff402af01a89a0eb16c80684fe0dbd0edd05f1a77f27cd151bf34c4
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): rest-api
+DEBUG:requests.packages.urllib3.connectionpool:"GET /state/ae78c62c13f4fd5ff402af01a89a0eb16c80684fe0dbd0edd05f1a77f27cd151bf34c4 HTTP/1.1" 200 415
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 16:11:42] "POST /listDis HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 16:11:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 16:12:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 16:12:53] "GET / HTTP/1.1" 200 -
+INFO:root:command : listDistributers
+INFO:root:sending to http://rest-api:8008/state/ae78c62c13f4fd5ff402af01a89a0eb16c80684fe0dbd0edd05f1a77f27cd151bf34c4
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): rest-api
+DEBUG:requests.packages.urllib3.connectionpool:"GET /state/ae78c62c13f4fd5ff402af01a89a0eb16c80684fe0dbd0edd05f1a77f27cd151bf34c4 HTTP/1.1" 200 415
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 16:15:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 16:16:02] "POST /addMed HTTP/1.1" 404 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 16:16:52] "GET / HTTP/1.1" 200 -
+INFO:root:payload: manufacture,ABm,Avomin
+INFO:root:sending to http://rest-api:8008/batches
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): rest-api
+DEBUG:requests.packages.urllib3.connectionpool:"POST /batches HTTP/1.1" 202 183
+INFO:root:
+request sent POST
+
+INFO:root:url : http://rest-api:8008batch_statuses?id=aec4d2308b313dc3d56154e1d4e745fa414061e642b1b6284f88f0ba41fa5eb877c9dfa99e566a1d6141d2f2d38cd7e4684e5605df9fc04779a04f520aeb9149&wait=5
+INFO:root:sending to http://rest-api:8008/batch_statuses?id=aec4d2308b313dc3d56154e1d4e745fa414061e642b1b6284f88f0ba41fa5eb877c9dfa99e566a1d6141d2f2d38cd7e4684e5605df9fc04779a04f520aeb9149&wait=5
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): rest-api
+DEBUG:requests.packages.urllib3.connectionpool:"GET /batch_statuses?id=aec4d2308b313dc3d56154e1d4e745fa414061e642b1b6284f88f0ba41fa5eb877c9dfa99e566a1d6141d2f2d38cd7e4684e5605df9fc04779a04f520aeb9149&wait=5 HTTP/1.1" 200 425
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 16:17:14] "POST /addMed HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 16:17:15] "GET / HTTP/1.1" 200 -
+INFO:root:command : seeManufacturer
+INFO:root:sending to http://rest-api:8008/state/ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): rest-api
+DEBUG:requests.packages.urllib3.connectionpool:"GET /state/ae78c6929566c0be850c45a55734db34b3ca12e1d6c8c31840aad9fa3914b8463fecc1 HTTP/1.1" 200 467
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 17:17:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 17:18:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 17:35:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 17:36:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/project/sawtooth-pharma/client/first.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 17:39:44] "GET / HTTP/1.1" 200 -
+INFO:root:addDistributer(YUTm)
+INFO:root:payload: addDistributor,YUTm
+INFO:root:sending to http://rest-api:8008/batches
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): rest-api
+DEBUG:requests.packages.urllib3.connectionpool:"POST /batches HTTP/1.1" 202 183
+INFO:root:
+request sent POST
+
+INFO:root:url : http://rest-api:8008batch_statuses?id=776dbb4ee7647444e6f787b599ff142114d576b592d8ebdbcee4a981c5f62c74508242a98740f65dbf8c951c10fb8bcb83869c203b956f0224e9c9cfbd0ca031&wait=5
+INFO:root:sending to http://rest-api:8008/batch_statuses?id=776dbb4ee7647444e6f787b599ff142114d576b592d8ebdbcee4a981c5f62c74508242a98740f65dbf8c951c10fb8bcb83869c203b956f0224e9c9cfbd0ca031&wait=5
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): rest-api
+DEBUG:requests.packages.urllib3.connectionpool:"GET /batch_statuses?id=776dbb4ee7647444e6f787b599ff142114d576b592d8ebdbcee4a981c5f62c74508242a98740f65dbf8c951c10fb8bcb83869c203b956f0224e9c9cfbd0ca031&wait=5 HTTP/1.1" 200 425
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 17:45:27] "POST /addDist HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 17:45:29] "GET / HTTP/1.1" 200 -
+INFO:root:addDistributer(ert)
+INFO:root:payload: addDistributor,ert
+INFO:root:sending to http://rest-api:8008/batches
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): rest-api
+DEBUG:requests.packages.urllib3.connectionpool:"POST /batches HTTP/1.1" 202 183
+INFO:root:
+request sent POST
+
+INFO:root:url : http://rest-api:8008batch_statuses?id=730f6cca7a38239d3e29eb6571c9e9c4c9b3f97725d2a1004c152bb1b611eb053d19637996afe35af30a25c14d6988578220818e56c8bd00066ad861c12731d8&wait=5
+INFO:root:sending to http://rest-api:8008/batch_statuses?id=730f6cca7a38239d3e29eb6571c9e9c4c9b3f97725d2a1004c152bb1b611eb053d19637996afe35af30a25c14d6988578220818e56c8bd00066ad861c12731d8&wait=5
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): rest-api
+DEBUG:requests.packages.urllib3.connectionpool:"GET /batch_statuses?id=730f6cca7a38239d3e29eb6571c9e9c4c9b3f97725d2a1004c152bb1b611eb053d19637996afe35af30a25c14d6988578220818e56c8bd00066ad861c12731d8&wait=5 HTTP/1.1" 200 425
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 17:45:49] "POST /addDist HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 17:46:00] "GET / HTTP/1.1" 200 -
+INFO:root:command : listDistributers
+INFO:root:sending to http://rest-api:8008/state/ae78c62c13f4fd5ff402af01a89a0eb16c80684fe0dbd0edd05f1a77f27cd151bf34c4
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): rest-api
+DEBUG:requests.packages.urllib3.connectionpool:"GET /state/ae78c62c13f4fd5ff402af01a89a0eb16c80684fe0dbd0edd05f1a77f27cd151bf34c4 HTTP/1.1" 200 427
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 17:47:27] "GET / HTTP/1.1" 500 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 17:47:27] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 17:47:27] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 17:47:27] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 17:47:28] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 17:47:28] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 17:47:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/project/sawtooth-pharma/client/first.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:payload: manufacture,ABm,Aspirin
+INFO:root:sending to http://rest-api:8008/batches
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): rest-api
+DEBUG:requests.packages.urllib3.connectionpool:"POST /batches HTTP/1.1" 202 183
+INFO:root:
+request sent POST
+
+INFO:root:url : http://rest-api:8008batch_statuses?id=154f8405d1e76de304eae8d7faf32d3bdbdf234ea4001e031c1a81f4858ac28e3664649026ffc6ba30264600f1b096e8104881e51a809fe6df719ced7719fbfd&wait=5
+INFO:root:sending to http://rest-api:8008/batch_statuses?id=154f8405d1e76de304eae8d7faf32d3bdbdf234ea4001e031c1a81f4858ac28e3664649026ffc6ba30264600f1b096e8104881e51a809fe6df719ced7719fbfd&wait=5
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): rest-api
+DEBUG:requests.packages.urllib3.connectionpool:"GET /batch_statuses?id=154f8405d1e76de304eae8d7faf32d3bdbdf234ea4001e031c1a81f4858ac28e3664649026ffc6ba30264600f1b096e8104881e51a809fe6df719ced7719fbfd&wait=5 HTTP/1.1" 200 425
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 17:48:21] "POST /addMed HTTP/1.1" 200 -
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 17:48:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/project/sawtooth-pharma/client/first.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:172.27.0.1 - - [04/Apr/2019 18:03:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/project/sawtooth-pharma/client/first.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in '/project/sawtooth-pharma/client/first.py', reloading
+INFO:werkzeug: * Restarting with stat
