@@ -34,7 +34,10 @@ def listMed():
     m = manufacturer()
     manu_name = request.form['manufacturer']
     result = m.listMedicines(manu_name)
-    return render_template('alert.html',command=result,port="5010")
+    if result:
+        return render_template('alert.html',command=result,port="5010")
+    else:
+        return render_template('alert.html',command="No Medicines",port="5010")
 
 # @app.route('/addDistributor', methods = ['GET', 'POST'])
 # def call():

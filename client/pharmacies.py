@@ -4,19 +4,34 @@ app = Flask(__name__)
 
 @app.route("/")
 def homepage():
-	return render_template('pharmacies.html')
+	return render_template('pharmacies3.html')
 
-@app.route("/getFromDistributer")
+@app.route("/getFromDistributer", methods = ['GET', 'POST'])
 def getFromDist():
 	p = pharmacy()
 	dist_name = request.form['distributer']
 	pharma_name = request.form['pharmacy']
 	date = request.form['date']
 	batchid = request.form['batchid']
-	result = p.getFromDistributor(dist_name, pharma_name, batchid, date, "accept")
-	return render_template('alert.html', command=result, port="5000")
+	action = request.form['choice']
+	result = p.getFromDistributor(dist_name, pharma_name, batchid, date, action)
+	# return str(request.form)
+	return render_template('alert.html', command=result, port="5030")
+
+@app.route('/listMed', methods = ['GET', 'POST'])
+def listMed():
+    p = pharmacy()
+    pharma_name = request.form['pharmacy']
+    result = p.listMedicines(pharma_name)
+    return render_template('alert.html',command=result, port="5030")
+
+@app.route('/listMedReq', methods = ['GET', 'POST'])
+def listMedReq():
+    p = pharmacy()
+    pharma_name = request.form['pharmacy']
+    result = p.listMedicines(pharma_name, 'request')
+    return render_template('alert.html',command=result, port="5030")
+
 
 if __name__=='__main__':
 	app.run(debug=True, host="0.0.0.0")
-
-	

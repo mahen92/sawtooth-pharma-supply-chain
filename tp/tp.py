@@ -110,11 +110,13 @@ class PharmaTransactionHandler(TransactionHandler):
                     # batchid = pa
                     # medicineDetails = payload_list[3:7]
                     self._manufacture(context, manufacturerName, medicineName, batchID, manufactureDate, expiryDate)
+                
                 elif action == "giveTo":
                     manufacturerName = payload_list[1]
                     distributerName = payload_list[2]
                     self._giveTo(context, manufacturerName, distributerName, medicineName)
                     action = payload_list[0]
+                
                 elif action == "giveToDistributer":
                     manufacturerName = payload_list[1]
                     distributerName = payload_list[2]
@@ -122,11 +124,14 @@ class PharmaTransactionHandler(TransactionHandler):
                     date = payload_list[4]
                     # medicineDetails = payload_list[3:7]
                     self._giveToDistributer(context, manufacturerName, distributerName, batchid, date)
+
+        		# l = [distributer, pharmacy, batchID, date]
                 elif action == "giveToPharmacy":
                     distributerName = payload_list[1]
                     pharmacyName = payload_list[2]
-                    medicineDetails = payload_list[3:7]
-                    self._giveToPharmacy(context, distributerName, pharmacyName, medicineDetails)
+                    batchID = payload_list[3]
+                    date = payload_list[4]
+                    self._giveToPharmacy(context, distributerName, pharmacyName, batchID, date)
                     action = payload_list[0]
 
                 # l = [manufacturerName, distributer, batchID, date, action]
@@ -137,12 +142,15 @@ class PharmaTransactionHandler(TransactionHandler):
                     date = payload_list[4]
                     action = payload_list[5]
                     self._getFromManufacturer(context, manufacturerName, distributerName, batchID, date, action)
+
+        		# l = [distributer, pharmacy, batchID, date, action]
                 elif action == "getFromDistributer":
                     ditributerName = payload_list[1]
                     pharmacyName = payload_list[2]
-                    medicineDetails = payload_list[3:7]
-                    performaction = payload_list[7]
-                    self._getFromditributer(context, ditributerName, pharmacyName, medicineDetails, performaction)
+                    batchID = payload_list[3]
+                    date = payload_list[4]
+                    action = payload_list[5]
+                    self._getFromDistributer(context, ditributerName, pharmacyName, batchID, date, action)
                 else:
                     LOGGER.debug("Unhandled action: " + action)
             except IndexError as i:
@@ -313,7 +321,7 @@ class PharmaTransactionHandler(TransactionHandler):
                 if batchID in distributerRequestMedicine:
                     distributerRequestMedicine.remove(batchID)
                     LOGGER.info (batchID + 'removed from request list of distributer')
-                    if action == "accept":
+                    if action == "Accept":
                         distributerHasMedicine = self._readData(context, distributerHasAddress)
                         distributerHasMedicine.append(batchID)
                         
@@ -326,7 +334,7 @@ class PharmaTransactionHandler(TransactionHandler):
                             batchAddress: self._encode_data(tracking)
                         })
                         LOGGER.info (batchID + 'added to has list of distributer and tracking updated')
-                    elif action == "reject":
+                    elif action == "Reject":
                         manufacturerMedicine = self._readData(context, manufacturerAddress)
                         manufacturerMedicine.append(batchID)
                         
@@ -336,6 +344,99 @@ class PharmaTransactionHandler(TransactionHandler):
                         })
                         
                         LOGGER.info (batchID + 'added back to manufacturer')
+                else:
+                    pass
+            else:
+                pass
+            #LOGGER.info('{} gave {} to {}'.format(manufacturerName, medicineDetails, distributerName))
+        except TypeError as t:
+            logging.debug('TypeError in _giveTo: {}'.format(t))
+            raise InvalidTransaction('Type error')
+        except InvalidTransaction as e:
+            logging.debug ('excecption: {}'.format(e))
+            raise e
+        except Exception as e:
+            logging.debug('exception: {}'.format(e))
+            raise InvalidTransaction('excecption: {}'.format(e))
+
+    @classmethod
+    def _giveToPharmacy(self, context, distributerName, pharmacyName, batchid, date):
+        LOGGER.info("entering giveToPharmacy")
+        distributerAddress = getDistributerAddress(distributerName)
+        pharmacyAddress = getPharmacyAddress(pharmacyName, "request")
+        try:
+            distributers = self._readData(context, DISTRIBUTERS_TABLE)  
+            pharmacies = self._readData(context, PHARMACY_TABLE)  
+            LOGGER.info ('distributers: {}'.format(distributers))
+            LOGGER.info ('pharmacies: {}'.format(pharmacies))
+            if distributerName in distributers and pharmacyName in pharmacies:
+                distributerMedicines = self._readData(context, distributerAddress)
+                if batchid in distributerMedicines:
+                    distributerMedicines.remove(batchid)
+                    LOGGER.info (batchid + 'removed from distributers')
+                    pharmacyMedicine = self._readData(context, pharmacyAddress)
+                    pharmacyMedicine.append(batchid)
+                    addresses = context.set_state({
+                        distributerAddress: self._encode_data(distributerMedicines),
+                        pharmacyAddress: self._encode_data(pharmacyMedicine)
+                    })
+                else:
+                    pass
+            else:
+                pass
+            LOGGER.info('{} gave {} to {}.request'.format(distributerName, batchid, pharmacyName))
+        except TypeError as t:
+            logging.debug('TypeError in _giveTo: {}'.format(t))
+            raise InvalidTransaction('Type error')
+        except InvalidTransaction as e:
+            logging.debug ('excecption: {}'.format(e))
+            raise e
+        except Exception as e:
+            logging.debug('exception: {}'.format(e))
+            raise InvalidTransaction('excecption: {}'.format(e))
+
+
+    @classmethod
+    def _getFromDistributer(self, context, distributerName, pharmacyName, batchID, date, action):
+        LOGGER.info("entering getFromDistributer")
+        action = str(action)
+        distributerAddress = getDistributerAddress(distributerName)
+        pharmacyRequestAddress = getPharmacyAddress(pharmacyName,"request")
+        pharmacyHasAddress = getPharmacyAddress(pharmacyName,"has")
+        batchAddress = getBatchAddress(batchID)
+        try:
+            pharmacy = self._readData(context, PHARMACY_TABLE)  
+            distributers = self._readData(context, DISTRIBUTERS_TABLE)  
+            LOGGER.info ('pharmacy: {}'.format(pharmacy))
+            LOGGER.info ('distributers: {}'.format(distributers))
+            if pharmacyName in pharmacy and distributerName in distributers:
+                pharmacyRequestMedicine = self._readData(context,pharmacyRequestAddress)
+                if batchID in pharmacyRequestMedicine:
+                    pharmacyRequestMedicine.remove(batchID)
+                    LOGGER.info (batchID + 'removed from request list of pharmacy')
+                    if action == "Accept":
+                        pharmacyHasMedicine = self._readData(context, pharmacyHasAddress)
+                        pharmacyHasMedicine.append(batchID)
+                        
+                        tracking = self._readData(context, batchAddress)
+                        tracking = [pharmacyName] + tracking
+                        
+                        addresses = context.set_state({
+                            pharmacyHasAddress: self._encode_data(pharmacyHasMedicine),
+                            pharmacyRequestAddress: self._encode_data(pharmacyRequestMedicine),
+                            batchAddress: self._encode_data(tracking)
+                        })
+                        LOGGER.info (batchID + 'added to has list of distributer and tracking updated')
+                    elif action == "Reject":
+                        distributerMedicine = self._readData(context, distributerAddress)
+                        distributerMedicine.append(batchID)
+                        
+                        addresses = context.set_state({
+                            distributerAddress: self._encode_data(distributerMedicine),
+                            pharmacyRequestAddress: self._encode_data(pharmacyRequestMedicine)
+                        })
+                        
+                        LOGGER.info (batchID + 'added back to distributer')
                 else:
                     pass
             else:

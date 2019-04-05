@@ -57,7 +57,7 @@ base_url = 'http://rest-api:8008'
 
 def getBatchAddress(batchID):
     return TRACKING_TABLE + hash(batchID)[:58]
-    
+
 def getManufacturerAddress(manufacturerName):
     return FAMILY_NAME + MANUFACTURER_ENTRIES + hash(manufacturerName)[:58]
 
@@ -283,7 +283,7 @@ if __name__ == '__main__':
             print ('content: {}'.format (result))
         elif sys.argv[1] == "seeDistributer":
             logging.info ('command : seeDistributer')
-            address = getDistributerAddress(sys.argv[2])
+            address = getDistributerAddress(sys.argv[2], 'request')
             result = listClients(address)
             print ('content: {}'.format (result))
         else:

@@ -16,41 +16,42 @@ def recieveFromManufacturer():
     dist_name = request.form['distributer']
     date = request.form['date']
     batchid = request.form['batchid']
-    owner = dist_name
-    k = d.getFromManufacturer(manu_name, dist_name, batchid, date, owner, "accept")
+    action = request.form['choice']
+    k = d.getFromManufacturer(manu_name, dist_name, batchid, date, action)
+    # return str(k)
     if (k == "COMMITTED"):
-        return render_template('alert.html',command="SENT THE REQUIRED BATCH SUCCESSFULLY")
+        return render_template('alert.html',command="SENT THE REQUIRED BATCH SUCCESSFULLY", port = "5020")
     else:
-       return render_template('alert.html',command="SOMETHING FAILED! \nOOPS!")
+       return render_template('alert.html',command="SOMETHING FAILED! \nOOPS!", port = "5020")
 
 @app.route('/sendToPharmacy', methods=['POST', 'GET'])
 def sendToPharmacy():
     d = distributer()
     dist_name = request.form['distributer']
     pharma_name = request.form['pharmacy']
-    date = request.form['date']
+    date = '12/5/19' #request.form['date']
     batchid = request.form['batchid']
-    owner = dist_name
     k = d.giveToPharmacy(dist_name, pharma_name, batchid, date)
+    # return str(request.form)
     if (k == "COMMITTED"):
-        return render_template('alert.html',command="ADDED DISTRIBUTOR")
+        return render_template('alert.html',command="ADDED DISTRIBUTOR", port = "5020")
     else:
-       return render_template('alert.html',command="SOMETHING FAILED! \nOOPS!")
+       return render_template('alert.html',command="SOMETHING FAILED! \nOOPS!", port = "5020")
 
 
 @app.route('/listMed', methods = ['GET', 'POST'])
 def listMed():
     m = distributer()
-    dist_name = request.form['distributor']
+    dist_name = request.form['distributer']
     result = m.listMedicines(dist_name)
-    return render_template('alert.html',command=result,port="5010")
+    return render_template('alert.html',command=result, port="5020")
 
 @app.route('/listMedReq', methods = ['GET', 'POST'])
 def listMedReq():
     m = distributer()
-    dist_name = request.form['distributor']
+    dist_name = request.form['distributer']
     result = m.listMedicines(dist_name, 'request')
-    return render_template('alert.html',command=result,port="5010")
+    return render_template('alert.html', command = result, port="5020")
 
 if __name__=='__main__':
 	app.run(debug=True,host="0.0.0.0")

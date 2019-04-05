@@ -64,7 +64,7 @@ class manufacturer():
 		batchAddress = getBatchAddress(batchID)
 		input_address_list = [DISTRIBUTERS_TABLE, MANUFACTURERS_TABLE, manufacturerAddress, distributerAddress, batchAddress]
 		output_address_list = [manufacturerAddress, distributerAddress, batchAddress]
-		response = wrap_and_send("giveToDistibutor", command_string, input_address_list, output_address_list, wait = 5)
+		response = wrap_and_send("giveToDistributer", command_string, input_address_list, output_address_list, wait = 5)
 		# print ("give response: {}".format(response))
 		return yaml.safe_load(response)['data'][0]['status']
 

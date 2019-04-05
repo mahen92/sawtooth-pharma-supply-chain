@@ -27,11 +27,12 @@ class distributer():
 	def getFromManufacturer(self, manufacturerName, distributer, batchID, date, action):
 		l = [manufacturerName, distributer, batchID, date, action]
 		command_string = ','.join(l)
-		distributerAddress = getDistributerAddress(distributer, "request")
+		distributerReqAddress = getDistributerAddress(distributer, "request")
+		distributerAddress = getDistributerAddress(distributer, "has")
 		manufacturerAddress = getManufacturerAddress(manufacturerName)
 		batchAddress = getBatchAddress(batchID)
-		input_address_list = [DISTRIBUTERS_TABLE, MANUFACTURERS_TABLE, manufacturerAddress, distributerAddress, batchAddress]
-		output_address_list = [manufacturerAddress, distributerAddress, batchAddress]
+		input_address_list = [DISTRIBUTERS_TABLE, MANUFACTURERS_TABLE, manufacturerAddress, distributerAddress, distributerReqAddress, batchAddress]
+		output_address_list = [manufacturerAddress, distributerAddress, distributerReqAddress, batchAddress]
 		response = wrap_and_send("getFromManufacturer", command_string, input_address_list, output_address_list, wait = 5)
 		# print ("give response: {}".format(response))
 		return yaml.safe_load(response)['data'][0]['status']

@@ -33,7 +33,7 @@ def addPharma():
 	pharmacy = request.form['pharmacy']
 	k = a.addPharmacy(pharmacy)
 	if (k == "COMMITTED"):
-		return render_template('alert.html', command="ADDED DISTRIBUTOR", port="5000")
+		return render_template('alert.html', command="ADDED PHARMACY", port="5000")
 	else:
 		return render_template('alert.html', command="SOMETHING FAILED! \nOOPS!", port="5000")
 
