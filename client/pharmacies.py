@@ -43,11 +43,22 @@ def track():
 	result = result.split(',')
 	# return str(result)
 	while result[i] != " +":
-		args[i] = result[i]
+		# args[i] = result[i]
 		i = i + 1
-	args.extend(result[i+1:])
-	# return str(args)
-	return render_template('tracking.html', manufacturer = args[0], distributer = args[1], pharmacy = args[2], medicine = args[3], batchid = args[4], manu_date = args[5], exp_date = args[6])
+	if i == 1:
+		manu = result[0]
+		dist = 0
+		pharma = 0
+	elif i == 2:
+		manu = result[1]
+		dist = result[0]
+		pharma = 0
+	elif i == 3:
+		manu = result[2]
+		dist = result[1]
+		pharma = result[0]
+	args = result[i+1:]
+	return render_template('tracking.html', manufacturer = manu, distributer = dist, pharmacy = pharma, medicine = args[0], batchid = args[1], manu_date = args[2], exp_date = args[3])
 
 if __name__=='__main__':
 	app.run(debug=True, host="0.0.0.0")

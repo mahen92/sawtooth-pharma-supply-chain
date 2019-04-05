@@ -263,7 +263,7 @@ class PharmaTransactionHandler(TransactionHandler):
                 raise Exception('no manufacturers')
         except Exception as e:
             logging.debug ('excecption: {}'.format(e))
-            raise InternalError("State Error")
+            raise InvalidTransaction("State Error")
         
     #l = [manufacturerName, distributer, batchID, date]
     @classmethod
@@ -395,7 +395,6 @@ class PharmaTransactionHandler(TransactionHandler):
         except Exception as e:
             logging.debug('exception: {}'.format(e))
             raise InvalidTransaction('excecption: {}'.format(e))
-
 
     @classmethod
     def _getFromDistributer(self, context, distributerName, pharmacyName, batchID, date, action):

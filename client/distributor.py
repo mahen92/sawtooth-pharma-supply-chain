@@ -35,7 +35,7 @@ def sendToPharmacy():
     # return str(request.form)
     # return str(k)
     if (k == "COMMITTED"):
-        return render_template('alert.html',command="ADDED DISTRIBUTOR", port = "5020")
+        return render_template('alert.html',command="SENT TO PHARMACY", port = "5020")
     else:
        return render_template('alert.html',command="SOMETHING FAILED! \nOOPS!", port = "5020")
 
