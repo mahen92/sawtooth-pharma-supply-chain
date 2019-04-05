@@ -241,7 +241,7 @@ class PharmaTransactionHandler(TransactionHandler):
     @classmethod
     def _manufacture(self, context, manufacturerName, medicineName, batchID, manufactureDate, expiryDate):
         manufacturerAddress = getManufacturerAddress(manufacturerName)
-        medicine_string = '\n'+', '.join([manufacturerName, medicineName, batchID, manufactureDate, expiryDate])
+        medicine_string = ', '.join([manufacturerName, '+' ,medicineName, batchID, manufactureDate, expiryDate])
         batchAddress = getBatchAddress(batchID)
         try:
             LOGGER.info("entering manufacture")
@@ -287,10 +287,11 @@ class PharmaTransactionHandler(TransactionHandler):
                         manufacturerAddress: self._encode_data(manufacturedMedicines),
                         distributerAddress: self._encode_data(distributerMedicine)
                     })
+                    LOGGER.info('address written')
                 else:
-                    pass
+                    raise Exception("batchid not in medicineList")
             else:
-                pass
+                raise Exception("manu or pharma not in lists")
             LOGGER.info('{} gave {} to {}.request'.format(manufacturerName, batchid, distributerName))
         except TypeError as t:
             logging.debug('TypeError in _giveTo: {}'.format(t))
@@ -345,9 +346,9 @@ class PharmaTransactionHandler(TransactionHandler):
                         
                         LOGGER.info (batchID + 'added back to manufacturer')
                 else:
-                    pass
+                    raise Exception("batchid not in medicine list")
             else:
-                pass
+                raise Exception("manu or dist not in lists")
             #LOGGER.info('{} gave {} to {}'.format(manufacturerName, medicineDetails, distributerName))
         except TypeError as t:
             logging.debug('TypeError in _giveTo: {}'.format(t))
@@ -381,9 +382,9 @@ class PharmaTransactionHandler(TransactionHandler):
                         pharmacyAddress: self._encode_data(pharmacyMedicine)
                     })
                 else:
-                    pass
+                    raise Exception("batchId not in medicineList")
             else:
-                pass
+                raise Exception("distributer or pharmacy not existent")
             LOGGER.info('{} gave {} to {}.request'.format(distributerName, batchid, pharmacyName))
         except TypeError as t:
             logging.debug('TypeError in _giveTo: {}'.format(t))
@@ -438,9 +439,9 @@ class PharmaTransactionHandler(TransactionHandler):
                         
                         LOGGER.info (batchID + 'added back to distributer')
                 else:
-                    pass
+                    raise Exception("batchid not in list")
             else:
-                pass
+                raise Exception("dist or pharma not in lists")
             #LOGGER.info('{} gave {} to {}'.format(manufacturerName, medicineDetails, distributerName))
         except TypeError as t:
             logging.debug('TypeError in _giveTo: {}'.format(t))

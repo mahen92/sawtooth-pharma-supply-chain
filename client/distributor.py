@@ -33,6 +33,7 @@ def sendToPharmacy():
     batchid = request.form['batchid']
     k = d.giveToPharmacy(dist_name, pharma_name, batchid, date)
     # return str(request.form)
+    # return str(k)
     if (k == "COMMITTED"):
         return render_template('alert.html',command="ADDED DISTRIBUTOR", port = "5020")
     else:

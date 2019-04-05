@@ -45,3 +45,11 @@ class pharmacy():
 			return result
 		else:
 			return "No medicines"
+		
+	def readMedicineBatch(self, batchid):
+		address = getBatchAddress(batchid)
+		result = listClients(address)
+		if result:
+			return result
+		else:
+			return "No such medicine batch"

@@ -26,9 +26,10 @@
   </script>
 
   <style>
-      .body{
-          background-color: cyan
-      }
+    .body {
+      background-color: cyan
+    }
+
     * {
       font-family: "courier new"
     }
@@ -51,10 +52,12 @@
       min-height: 100vh;
       flex-direction: column;
     }
-    #only{
+
+    #only {
       min-height: 50vh;
       background-color: cyan;
     }
+
     main {
       flex: 1 0 auto;
     }
@@ -65,14 +68,14 @@
     $(document).ready(function () {
       $('.parallax').parallax();
     });
-    $(document).ready(function(){
-$('.modal-trigger').leanModal();
-$('select').material_select();
-  });
-  $(document).ready(function(){
-    $('select').formSelect();
-  });
-        
+    $(document).ready(function () {
+      $('.modal-trigger').leanModal();
+      $('select').material_select();
+    });
+    $(document).ready(function () {
+      $('select').formSelect();
+    });
+
 
 
   </script>
@@ -84,28 +87,45 @@ $('select').material_select();
   </style>
 </head>
 
-<body >
+<body>
 
 
   <div class="center-align">
     <h4 class="!"><b>Tracking</b></h4>
-<img src="https://funkyimg.com/i/2SUj9.png"/>
+    <img src="https://funkyimg.com/i/2SUj9.png" />
   </div>
-<div class="row">
-    <div class="col s4 m4">
-       <h5><b>Owner:</b>{{command}}</h5> 
+  </br>
+  <div class="row">
+    <div class="col">
+      <h3><b>Manufacturer:</b>{{manufacturer}}</h3>
     </div>
-    <div class="col s4 m4">
-            <h5><b>Owner:</b>{{command}}</h5> 
-        </div>
-        <div class="col s4 m4">
-<h5><b>Owner:</b>{{command}}</h5> 
-            </div>
-                
-</div>
-  
-<br/>
-<br/>
-<br/>
+    <div class="col">
+      <h3><b>Distributor:</b>{{distributer}}</h3>
+    </div>
+    <div class="col">
+      <h3><b>Pharmacy:</b>{{pharmacy}}</h3>
+    </div>
+  </div>
+  <div class="row">
+      <div class="col">
+        <h3><b>Medicine:</b>{{medicine}}</h3>
+      </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <h3><b>Batch ID:</b>{{batchid}}</h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <h3><b>Manufacturer date:</b>{{manu_date}}</h3>
+    </div>
+    <div class="col">
+        <h3><b>Expiry date:</b>{{exp_date}}</h3>
+      </div>
+  </div>
+  <br />
+  <br />
+  <br />
 
 </body>
