@@ -17,8 +17,6 @@
     </script>
     <script>
         $(document).ready(function () {
-
-
             $('.modal').modal();
             $('.modal').closeModal();
         });
@@ -90,32 +88,33 @@
                         class="material-icons left">add</i>Add distributors</a><br /><br />
                 <a class="blue-text text-darken-2 white waves-effect waves-light btn" href="#id03"><i
                         class="material-icons left">add</i>Add pharmacies<br />/pharmacies</a><br /><br />
+
                 <form action="http://localhost:5000/listManu" method="POST">
-                
-                        <button
+
+                    <button
                         class="blue-text text-darken-2 white waves-effect waves-light btn btn waves-effect waves-light"
                         type="submit" name="action">List manufacturers
                         <i class="material-icons right">list</i>
                     </button>
-                    </form>    
-                    <br/>
-                    <form action="http://localhost:5000/listDist" method="POST">
-                
-                        <button
+                </form>
+                <br />
+                <form action="http://localhost:5000/listDist" method="POST">
+
+                    <button
                         class="blue-text text-darken-2 white waves-effect waves-light btn btn waves-effect waves-light"
                         type="submit" name="action">List distributors
                         <i class="material-icons right">list</i>
                     </button>
-                    </form>
-                    <br/>     <form action="http://localhost:5000/listPharma" method="POST">
-                
-                        <button
+                </form>
+                <br />
+                <form action="http://localhost:5000/listPharma" method="POST">
+                    <button
                         class="blue-text text-darken-2 white waves-effect waves-light btn btn waves-effect waves-light"
                         type="submit" name="action">List pharmacies
                         <i class="material-icons right">list</i>
                     </button>
-                    </form>  
-                    <br/> 
+                </form>
+                <br />
             </div>
         </div>
 
@@ -150,11 +149,9 @@
                 <br />
 
                 <form action="http://localhost:5000/addManu" method="POST">
-
-
-
-                    <h6><b>manufacturer's name<b>
-                                <input type="text" name="manufacturer" placeholder="Enter the Manufacturer's name" /></h6>
+                    <h6><b>Manufacturer's name<b>
+                                <input type="text" name="manufacturer" placeholder="Enter the Manufacturer's name" />
+                    </h6>
 
                     <button
                         class="blue-text text-darken-2 white waves-effect waves-light btn btn waves-effect waves-light"
@@ -189,134 +186,8 @@
                 </form>
             </div>
         </div>
-
-        <a class="modal-trigger" href="#id04"></a>
-        <div id="id04" class="modal" style="width:50%;height:50%">
-
-            <div class="container">
-                <br />
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Name</th>
-                            <th>Item Name</th>
-                            <th>Item Price</th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>Alvin</td>
-                            <td>Eclair</td>
-                            <td>$0.87</td>
-                        </tr>
-                        <tr>
-                            <td>Alan</td>
-                            <td>Jellybean</td>
-                            <td>$3.76</td>
-                        </tr>
-                        <tr>
-                            <td>Jonathan</td>
-                            <td>Lollipop</td>
-                            <td>$7.00</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <a href="#!"
-                    class="blue-text text-darken-2 white waves-effect waves-light btn center modal-action modal-close waves-effect waves-green btn-flat"
-                    onclick="document.getElementById('id01').style.display='none'" target="_self"><i
-                        class="material-icons left">arrow_back</i></a>
-
-            </div>
-        </div>
-
-
-
-        <a class="modal-trigger" href="#id05"></a>
-        <div id="id05" class="modal" style="width:50%;height:50%">
-
-            <div class="container">
-                <br />
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Name</th>
-                            <th>Item Name</th>
-                            <th>Item Price</th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>Alvin</td>
-                            <td>Eclair</td>
-                            <td>$0.87</td>
-                        </tr>
-                        <tr>
-                            <td>Alan</td>
-                            <td>Jellybean</td>
-                            <td>$3.76</td>
-                        </tr>
-                        <tr>
-                            <td>Jonathan</td>
-                            <td>Lollipop</td>
-                            <td>$7.00</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <a href="#!"
-                    class="blue-text text-darken-2 white waves-effect waves-light btn center modal-action modal-close waves-effect waves-green btn-flat"
-                    onclick="document.getElementById('id01').style.display='none'" target="_self"><i
-                        class="material-icons left">arrow_back</i></a>
-
-            </div>
-        </div>
-
-
-        <a class="modal-trigger" href="#id06"></a>
-        <div id="id06" class="modal" style="width:50%;height:50%">
-
-            <div class="container">
-                <br />
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Name</th>
-                            <th>Item Name</th>
-                            <th>Item Price</th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        <tr>
-                            <td>Alvin</td>
-                            <td>Eclair</td>
-                            <td>$0.87</td>
-                        </tr>
-                        <tr>
-                            <td>Alan</td>
-                            <td>Jellybean</td>
-                            <td>$3.76</td>
-                        </tr>
-                        <tr>
-                            <td>Jonathan</td>
-                            <td>Lollipop</td>
-                            <td>$7.00</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <a href="#!"
-                    class="blue-text text-darken-2 white waves-effect waves-light btn center modal-action modal-close waves-effect waves-green btn-flat"
-                    onclick="document.getElementById('id01').style.display='none'" target="_self"><i
-                        class="material-icons left">arrow_back</i>
-                </a>
-
-            </div>
-        </div>
-
-
-
-
     </div>
     </div>
 </body>
+
+</html>

@@ -1,24 +1,5 @@
 #!/bin/python3
-import hashlib
-import base64
-import random
-import time
-import requests
-import yaml
-import sys
-import logging
-import optparse
-import client_class
 from client import *
-from sawtooth_signing import create_context
-from sawtooth_signing import CryptoFactory
-from sawtooth_signing import ParseError
-from sawtooth_signing.secp256k1 import Secp256k1PrivateKey
-from sawtooth_sdk.protobuf.transaction_pb2 import TransactionHeader
-from sawtooth_sdk.protobuf.transaction_pb2 import Transaction
-from sawtooth_sdk.protobuf.batch_pb2 import BatchList
-from sawtooth_sdk.protobuf.batch_pb2 import BatchHeader
-from sawtooth_sdk.protobuf.batch_pb2 import Batch
 
 class admin():
     def __init__(self):
@@ -66,14 +47,11 @@ class admin():
             return None
 
     def listPharmacies(self):
-        # address = getPharmacyAddress(pharmacyName)
         return listClients(PHARMACY_TABLE)
 
     def listDistributers(self):
-        # address = getDistributerAddress(DistributerName)
         return listClients(DISTRIBUTERS_TABLE)
 
     def listManufacturers(self):
-        # address = getManufacturerAddress(ManufacturerName)
         return listClients(MANUFACTURERS_TABLE)        
     

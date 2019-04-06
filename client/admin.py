@@ -3,6 +3,10 @@ from flask import Flask, render_template, request
 from admin_class import admin
 app = Flask(__name__)
 
+app.config['DEBUG'] = True
+app.config['LC_ALL'] = "C.UTF-8"
+app.config['LANG'] = "C.UTF-8"
+
 @app.route("/")
 def fun1():
     return render_template('admin.html')

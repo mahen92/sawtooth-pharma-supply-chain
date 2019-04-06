@@ -1,6 +1,10 @@
 from flask import Flask, render_template, request
 from pharmacy_class import pharmacy
+
 app = Flask(__name__)
+app.config['DEBUG'] = True
+app.config['LC_ALL'] = "C.UTF-8"
+app.config['LANG'] = "C.UTF-8"
 
 @app.route("/")
 def homepage():
@@ -15,7 +19,6 @@ def getFromDist():
 	batchid = request.form['batchid']
 	action = request.form['choice']
 	result = p.getFromDistributor(dist_name, pharma_name, batchid, date, action)
-	# return str(request.form)
 	return render_template('alert.html', command=result, port="5030")
 
 @app.route('/listMed', methods = ['GET', 'POST'])
@@ -37,14 +40,12 @@ def track():
 	p = pharmacy()
 	batchid = request.form['batchid']
 	result = p.readMedicineBatch(batchid)
-	# return str(result)
 	i = 0
 	args = ['0', '0', '0']
 	result = result.split(',')
-	# return str(result)
 	while result[i] != " +":
-		# args[i] = result[i]
 		i = i + 1
+
 	if i == 1:
 		manu = result[0]
 		dist = 0
@@ -61,4 +62,4 @@ def track():
 	return render_template('tracking.html', manufacturer = manu, distributer = dist, pharmacy = pharma, medicine = args[0], batchid = args[1], manu_date = args[2], exp_date = args[3])
 
 if __name__=='__main__':
-	app.run(debug=True, host="0.0.0.0")
+	app.run(debug=True, host="0.0.0.0", port="5030")

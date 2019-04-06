@@ -14,7 +14,7 @@ DEFAULT_URL = 'tcp://validator:4004'
 def hash(data):
     return hashlib.sha512(data.encode()).hexdigest()
 
-logging.basicConfig(filename='example.log',level=logging.DEBUG)
+logging.basicConfig(filename='tp.log',level=logging.DEBUG)
 LOGGER = logging.getLogger(__name__)
 
 # namespaces
